@@ -1,0 +1,2756 @@
+{
+  "schema_version": 1,
+  "status": "overlap_detected",
+  "rows": {
+    "train": 420,
+    "test": 180
+  },
+  "features": [
+    "channel",
+    "measurement"
+  ],
+  "numeric_columns": [
+    "measurement"
+  ],
+  "group_column": "entity",
+  "target_column_excluded": "target",
+  "policy": {
+    "text": "Unicode NFC; case and whitespace preserved",
+    "numeric": "Finite exact Decimal; whitespace stripped; notation/signed-zero normalized",
+    "missing": "Empty text cell or whitespace-only numeric cell",
+    "equality": "Complete canonical bytes; SHA-256 for report labels"
+  },
+  "counts": {
+    "shared_feature_keys": 74,
+    "overlapping_test_rows": 74,
+    "shared_groups": 113,
+    "test_rows_in_shared_groups": 150,
+    "all_features_missing": {
+      "train": 0,
+      "test": 0
+    },
+    "digest_collision_buckets": 0
+  },
+  "feature_matches": [
+    {
+      "fingerprint": "5c8d54c1de186763075930108b43ea7692cf5f426703e758223f966dfade5f83",
+      "train_rows": [
+        1
+      ],
+      "test_rows": [
+        1
+      ]
+    },
+    {
+      "fingerprint": "84f1d54db608cb4ca22163331310a76e336ff6e48aaab9ee87b2783c655555c8",
+      "train_rows": [
+        215
+      ],
+      "test_rows": [
+        99
+      ]
+    },
+    {
+      "fingerprint": "40cdcb4cb99d2834cd4892aeb15532cc405227dc81b96aab4b58e7cebe407369",
+      "train_rows": [
+        221
+      ],
+      "test_rows": [
+        105
+      ]
+    },
+    {
+      "fingerprint": "119b4d8041ff30469bbad848574434bbd4edf0fc8330e73a998ae9c1e840b591",
+      "train_rows": [
+        255
+      ],
+      "test_rows": [
+        119
+      ]
+    },
+    {
+      "fingerprint": "4255b2d6d2b71778f85cc8378186050598922957964306174dc8729c69034d48",
+      "train_rows": [
+        340
+      ],
+      "test_rows": [
+        154
+      ]
+    },
+    {
+      "fingerprint": "63eff48e7a878b6610df253ead4ad5260a2db987046f96338f63ddd4172183b3",
+      "train_rows": [
+        388
+      ],
+      "test_rows": [
+        166
+      ]
+    },
+    {
+      "fingerprint": "9aadd136dde047f0fdbcbc4c99c21120e776e973f3411e1da14acf343d2887ec",
+      "train_rows": [
+        397
+      ],
+      "test_rows": [
+        169
+      ]
+    },
+    {
+      "fingerprint": "e29d11c842995fc3e90c7adc26300aed33655006ad4bb53693703aa0ed4cf626",
+      "train_rows": [
+        55
+      ],
+      "test_rows": [
+        31
+      ]
+    },
+    {
+      "fingerprint": "f0589f48b89a03437ce3648db79c9622a356832343b37161653e3bc5363870cb",
+      "train_rows": [
+        80
+      ],
+      "test_rows": [
+        42
+      ]
+    },
+    {
+      "fingerprint": "6d4b6b6c73bc755667533cb2b69aed79d0187bd101916eafa7f712b84f835dc5",
+      "train_rows": [
+        107
+      ],
+      "test_rows": [
+        51
+      ]
+    },
+    {
+      "fingerprint": "b6f693f4dee9d36b36fa0fcb22675d9fbe8fdef5c4bdca46e0904dde519a441b",
+      "train_rows": [
+        126
+      ],
+      "test_rows": [
+        56
+      ]
+    },
+    {
+      "fingerprint": "1fee44b9ebc187cd12310724b6e9f0914836aaff650562921be9ff30339f555d",
+      "train_rows": [
+        135
+      ],
+      "test_rows": [
+        59
+      ]
+    },
+    {
+      "fingerprint": "9fc5544a77eb8d7db5d45648d3b78d25d677b2723e74afede305e632ac9420d7",
+      "train_rows": [
+        154
+      ],
+      "test_rows": [
+        64
+      ]
+    },
+    {
+      "fingerprint": "372bcef9031a48f88f06eab1abd56747ca49b29bc786a28e5e6a76c38e10e947",
+      "train_rows": [
+        16
+      ],
+      "test_rows": [
+        10
+      ]
+    },
+    {
+      "fingerprint": "1bf526ab1a604ec32e0004b5acaf3ee32c43b90828e5f553bc15afbf9e0895fa",
+      "train_rows": [
+        172
+      ],
+      "test_rows": [
+        70
+      ]
+    },
+    {
+      "fingerprint": "8375404e88b54121eded7a8225465e312c3d6784ab777ee353ecb45a500bb0db",
+      "train_rows": [
+        177
+      ],
+      "test_rows": [
+        77
+      ]
+    },
+    {
+      "fingerprint": "0dc3daf250239829f675316d372bf4755176726a350913ccb565f41abfe8c310",
+      "train_rows": [
+        198
+      ],
+      "test_rows": [
+        92
+      ]
+    },
+    {
+      "fingerprint": "9bfc7b16a01ba015551682d2f13500670bc7d2930059fc441530d65fe8ed4436",
+      "train_rows": [
+        217
+      ],
+      "test_rows": [
+        100
+      ]
+    },
+    {
+      "fingerprint": "5503c945a77d44c8b35251d3e5b7d61285b06abf2adb9265ba28640e342ed8a5",
+      "train_rows": [
+        243
+      ],
+      "test_rows": [
+        110
+      ]
+    },
+    {
+      "fingerprint": "039082c73f5b241da541b610367933bd80e180cd46cae5b63da9b42cd8f78385",
+      "train_rows": [
+        250
+      ],
+      "test_rows": [
+        115
+      ]
+    },
+    {
+      "fingerprint": "1b799e10af0618442cca3ff5b14d91b75f8e8b895d326f5f28e1f8b7ceb73a26",
+      "train_rows": [
+        256
+      ],
+      "test_rows": [
+        121
+      ]
+    },
+    {
+      "fingerprint": "b1670ac94d23c1e516fe81663f28e4dae548c146b2f5c7c4dd0f113523cea145",
+      "train_rows": [
+        265
+      ],
+      "test_rows": [
+        124
+      ]
+    },
+    {
+      "fingerprint": "6c302b5e20c494a04079bc2ae0c1dd3dccfd819d30bb7a481bc6635b98686a34",
+      "train_rows": [
+        273
+      ],
+      "test_rows": [
+        128
+      ]
+    },
+    {
+      "fingerprint": "1a958f9854dbd236fa31c873c50e8ecb46f4fb20a1507cd1bc531fba489e3dbf",
+      "train_rows": [
+        334
+      ],
+      "test_rows": [
+        151
+      ]
+    },
+    {
+      "fingerprint": "d79e289f5661da3c2b79c40ba0887180359a978d56299537a2cfdf5b08431cf9",
+      "train_rows": [
+        342
+      ],
+      "test_rows": [
+        155
+      ]
+    },
+    {
+      "fingerprint": "9c5ad426ffe2ebd1993d300186e20ecebc5fca4969c3eeaa10ae88b80cddcd3d",
+      "train_rows": [
+        363
+      ],
+      "test_rows": [
+        158
+      ]
+    },
+    {
+      "fingerprint": "e5b2c86a8f225816ee004b9738c976dcc587b32e657c07333ed9e77fcc91d4a7",
+      "train_rows": [
+        371
+      ],
+      "test_rows": [
+        162
+      ]
+    },
+    {
+      "fingerprint": "76ceaf64727e49c9ae44884961ad2a0708d894f0b94284f9b449f35db6864ed6",
+      "train_rows": [
+        380
+      ],
+      "test_rows": [
+        165
+      ]
+    },
+    {
+      "fingerprint": "869a33588cc5c58949545ff284a662f0265522c79f0d5348bf23dbd86cbb7e23",
+      "train_rows": [
+        398
+      ],
+      "test_rows": [
+        171
+      ]
+    },
+    {
+      "fingerprint": "17a664bffd72b0527a3dda83735866b8938895b841d8a5a891f0a13a18b8d1cd",
+      "train_rows": [
+        48
+      ],
+      "test_rows": [
+        29
+      ]
+    },
+    {
+      "fingerprint": "120a234b7ccefe5d1b72dd98c3f38a9f426d24106caf294e4e705d5582024e50",
+      "train_rows": [
+        73
+      ],
+      "test_rows": [
+        40
+      ]
+    },
+    {
+      "fingerprint": "8ca0a82d5fc6fd105b1874a31f14ef353a0c658341233f974966315a85929fe9",
+      "train_rows": [
+        11
+      ],
+      "test_rows": [
+        6
+      ]
+    },
+    {
+      "fingerprint": "7bbd5f41e3ea1d86ff1235d71e33ffeab97c1ff560d626b6519eb4435c007801",
+      "train_rows": [
+        165
+      ],
+      "test_rows": [
+        68
+      ]
+    },
+    {
+      "fingerprint": "012b1f2a04df74dac9f53f0f77e0bc239d58c1fa8c542a55c3079e80000a8b43",
+      "train_rows": [
+        186
+      ],
+      "test_rows": [
+        83
+      ]
+    },
+    {
+      "fingerprint": "03671549a4d0300651b8153321374420425ea57cc9b1f9f7b558cba682143fd8",
+      "train_rows": [
+        17
+      ],
+      "test_rows": [
+        12
+      ]
+    },
+    {
+      "fingerprint": "6c518b1bed2fcc58ab20893c2a6c9778b14f3d30cc90b3e5c13ab56fbe287e2e",
+      "train_rows": [
+        192
+      ],
+      "test_rows": [
+        89
+      ]
+    },
+    {
+      "fingerprint": "259ddb5f53aad701400921a36a3919d700dcd5e7fb06fcba655b39e31a276092",
+      "train_rows": [
+        19
+      ],
+      "test_rows": [
+        13
+      ]
+    },
+    {
+      "fingerprint": "fd78195298d5e4c158c0449e94dcd2653b461b91148a209d7fec6a34ed8cf620",
+      "train_rows": [
+        210
+      ],
+      "test_rows": [
+        98
+      ]
+    },
+    {
+      "fingerprint": "a6717795d47c8b815d6fa5e1a1788d460a997c166d84b0a6d903d08455c63b4d",
+      "train_rows": [
+        236
+      ],
+      "test_rows": [
+        108
+      ]
+    },
+    {
+      "fingerprint": "34a8365d9c113d00bf218b26dbedb6713d709f600db6a25c8d5213dc8d2bfde2",
+      "train_rows": [
+        251
+      ],
+      "test_rows": [
+        117
+      ]
+    },
+    {
+      "fingerprint": "7cee1a0a771b954f3f88256fdc0dd95a315121c31a7dd79a4d0aa148f8150ca0",
+      "train_rows": [
+        258
+      ],
+      "test_rows": [
+        122
+      ]
+    },
+    {
+      "fingerprint": "5ba3e21fcb79f3e5fb06acd47f9c25191f79dd30479fc6d1a261469c00ca4bbf",
+      "train_rows": [
+        267
+      ],
+      "test_rows": [
+        125
+      ]
+    },
+    {
+      "fingerprint": "2d6ff65ceb1d62da520adaab756a51a2128623014c98a208075631aa4cbd86fd",
+      "train_rows": [
+        285
+      ],
+      "test_rows": [
+        131
+      ]
+    },
+    {
+      "fingerprint": "2946fcdc6d754b42c9237e43d6ad7663f812b27d32f23814d00d93cd9a41c1b3",
+      "train_rows": [
+        335
+      ],
+      "test_rows": [
+        153
+      ]
+    },
+    {
+      "fingerprint": "aca671e599ff27c64fb119403992e108cf6871ed4b7772ea74778a855ddb866f",
+      "train_rows": [
+        343
+      ],
+      "test_rows": [
+        157
+      ]
+    },
+    {
+      "fingerprint": "887a1cf42fe5e322ca1d73cffc63a20cfd26b147959e26b3fde08e691e546916",
+      "train_rows": [
+        365
+      ],
+      "test_rows": [
+        159
+      ]
+    },
+    {
+      "fingerprint": "b00250596e0ac2d116ab03838a174ef06d515bc4875a83bebc58a520506f7817",
+      "train_rows": [
+        35
+      ],
+      "test_rows": [
+        21
+      ]
+    },
+    {
+      "fingerprint": "840cd9ee9428d32195e3fb1244f751a1fc87813b430b0e70cca2c35c98d30b6b",
+      "train_rows": [
+        392
+      ],
+      "test_rows": [
+        168
+      ]
+    },
+    {
+      "fingerprint": "37f6552884282f7c66f30551f344188fcc4e57a97a2fe47f92b3d2e336f76fc8",
+      "train_rows": [
+        400
+      ],
+      "test_rows": [
+        172
+      ]
+    },
+    {
+      "fingerprint": "ffb3e5ffdf5592f0bb7ca39a45443ecbded71348687713eef46108825335f28d",
+      "train_rows": [
+        410
+      ],
+      "test_rows": [
+        174
+      ]
+    },
+    {
+      "fingerprint": "bb75b31652f1fc6661fc1106ca1e016c4f54612dd3dad203f8738b0ce41fa83a",
+      "train_rows": [
+        417
+      ],
+      "test_rows": [
+        179
+      ]
+    },
+    {
+      "fingerprint": "3ac13d5e13e62728b88a19d31df6747d6d1a6fe6b6aafc37b992870ce6ffa493",
+      "train_rows": [
+        59
+      ],
+      "test_rows": [
+        33
+      ]
+    },
+    {
+      "fingerprint": "5a26a582f50d417323c40e61cac5ff6313a00c221332d5b9f6e37a25934f04f5",
+      "train_rows": [
+        66
+      ],
+      "test_rows": [
+        38
+      ]
+    },
+    {
+      "fingerprint": "3355b1eb66922d695e9760208ad958c93115f06eff01ecd8997d0d13d4c6c377",
+      "train_rows": [
+        93
+      ],
+      "test_rows": [
+        47
+      ]
+    },
+    {
+      "fingerprint": "21b816f89074ca92e317fb6d73eaf855d1eee1c6e1fde5cb61bc58c18d3e35e0",
+      "train_rows": [
+        151
+      ],
+      "test_rows": [
+        61
+      ]
+    },
+    {
+      "fingerprint": "3a0dc32ed83535082916f86792b179334b532fbe5f2934c34658b2b7bd13a937",
+      "train_rows": [
+        159
+      ],
+      "test_rows": [
+        65
+      ]
+    },
+    {
+      "fingerprint": "ffcf0e8b4f348aec2bebc6ab35017821e4957feb09e7c525964056bbf7ac60af",
+      "train_rows": [
+        167
+      ],
+      "test_rows": [
+        69
+      ]
+    },
+    {
+      "fingerprint": "2e8d66efe08b7da13dc675845e6030916e95984e7fb9f2ecf4e92b416c5508b9",
+      "train_rows": [
+        175
+      ],
+      "test_rows": [
+        73
+      ]
+    },
+    {
+      "fingerprint": "3e7d376ffce2b55ac18ff6e022f64c1a47d848313a4c397130d5da2d97650c90",
+      "train_rows": [
+        220
+      ],
+      "test_rows": [
+        103
+      ]
+    },
+    {
+      "fingerprint": "2225e2dc8c690bc1eec793e82e1aab614dc0dd3f39c2f1ea40163bfc7ea49307",
+      "train_rows": [
+        229
+      ],
+      "test_rows": [
+        106
+      ]
+    },
+    {
+      "fingerprint": "bd9eb4faf37617309f05f205f039dec0adf35b3c884ac5e7b372c91c59129f17",
+      "train_rows": [
+        305
+      ],
+      "test_rows": [
+        138
+      ]
+    },
+    {
+      "fingerprint": "7ee0614a96b404a1e0b2b62a940fced578994c60b1e194fd1394b417ff0ec8b8",
+      "train_rows": [
+        28
+      ],
+      "test_rows": [
+        19
+      ]
+    },
+    {
+      "fingerprint": "d4de85fcbd87b57e3a6949123ade327957d5351c12884ab245fa90ebc11e6841",
+      "train_rows": [
+        312
+      ],
+      "test_rows": [
+        143
+      ]
+    },
+    {
+      "fingerprint": "d8b4decf31112543e4af05cefa3335c455880e305b52c999e3ba776d8cecf52c",
+      "train_rows": [
+        322
+      ],
+      "test_rows": [
+        145
+      ]
+    },
+    {
+      "fingerprint": "242e67cbdb9614381707f31ba993f6b8382b37df61217bd7fa6488d836beff18",
+      "train_rows": [
+        366
+      ],
+      "test_rows": [
+        161
+      ]
+    },
+    {
+      "fingerprint": "54581d31784bdbf137ab9be3026db2d96cfa938017f6f4acaa0c559aa6f95884",
+      "train_rows": [
+        37
+      ],
+      "test_rows": [
+        22
+      ]
+    },
+    {
+      "fingerprint": "63c677ae6e85e92acf144be2d7b3cad6aa0d662665b70665cb37cbf4009c953e",
+      "train_rows": [
+        44
+      ],
+      "test_rows": [
+        27
+      ]
+    },
+    {
+      "fingerprint": "f7e3c97da85ee047bf6fb0b2b1cb58f918e0e9a2e6af3f07cc3f75935413d85f",
+      "train_rows": [
+        106
+      ],
+      "test_rows": [
+        49
+      ]
+    },
+    {
+      "fingerprint": "3513aa8ab91bd8a1d58e2019de0d45c55da685b129e5d8e815ae8b4d83f6902d",
+      "train_rows": [
+        133
+      ],
+      "test_rows": [
+        58
+      ]
+    },
+    {
+      "fingerprint": "76ee5f6ba27f50ef2dffa6e1dbeba40de1726ad15c3556f04d8eccf7e0b042da",
+      "train_rows": [
+        152
+      ],
+      "test_rows": [
+        63
+      ]
+    },
+    {
+      "fingerprint": "93c5bc1d086f77d0e91cd70fafb32d7afc38411f62cbf923f0a15e8043bf016c",
+      "train_rows": [
+        161
+      ],
+      "test_rows": [
+        66
+      ]
+    },
+    {
+      "fingerprint": "225db05d05fda2df36a0bac3c5ec410c520de2188b000e20243c26f1bb88657c",
+      "train_rows": [
+        176
+      ],
+      "test_rows": [
+        75
+      ]
+    },
+    {
+      "fingerprint": "d822ce03b44ddbe477d36247e74345da0f4b06e40a25d820260d598b9b5766f3",
+      "train_rows": [
+        183
+      ],
+      "test_rows": [
+        80
+      ]
+    },
+    {
+      "fingerprint": "0ea3f1f0ef725b9b9f1d52309a3dbca3fce3cff6033dd5c67bff58e3c3dbcbba",
+      "train_rows": [
+        188
+      ],
+      "test_rows": [
+        87
+      ]
+    }
+  ],
+  "group_matches": [
+    {
+      "fingerprint": "11a031676691788d79c1fbd721a17393287b31690a08ce4b6a69f94a35b28050",
+      "train_rows": [
+        1,
+        2
+      ],
+      "test_rows": [
+        1
+      ]
+    },
+    {
+      "fingerprint": "0db82cf843e356f2c43aabd8886be9489ed07f764507c1b52dc1d9a6a465d143",
+      "train_rows": [
+        3,
+        4
+      ],
+      "test_rows": [
+        2
+      ]
+    },
+    {
+      "fingerprint": "bc1aa42f61f4d907268051502b0ad4a4776d8568b6a7c5fef78a9f8efa26dd31",
+      "train_rows": [
+        11,
+        12
+      ],
+      "test_rows": [
+        6
+      ]
+    },
+    {
+      "fingerprint": "bc185776145e8faedcabe1cacc6a44ed7a49f002e0367b0e81bb24e325773b47",
+      "train_rows": [
+        16
+      ],
+      "test_rows": [
+        10,
+        11
+      ]
+    },
+    {
+      "fingerprint": "7f8917175a94b5fada976bcec581eecf97c996d562f2fdc1363a43f67c61633c",
+      "train_rows": [
+        17,
+        18
+      ],
+      "test_rows": [
+        12
+      ]
+    },
+    {
+      "fingerprint": "86d714389a0fe77950d7b84624950895e1304adb60f8e949488b48e329ba50c3",
+      "train_rows": [
+        19,
+        20
+      ],
+      "test_rows": [
+        13
+      ]
+    },
+    {
+      "fingerprint": "d3be1759e6b924cd744e38ba0cb829d9b172d2c33d3aee91681cec023c0db039",
+      "train_rows": [
+        21
+      ],
+      "test_rows": [
+        14,
+        15
+      ]
+    },
+    {
+      "fingerprint": "1060ca8a743408767bb6291f82f685fe9de62e7df5e800ed8cbc1931106451a6",
+      "train_rows": [
+        22
+      ],
+      "test_rows": [
+        16,
+        17
+      ]
+    },
+    {
+      "fingerprint": "7b952ffe0ca4e745e34461bfe3262615ec39a7fc3ddd99a77b40a9cd93d431f7",
+      "train_rows": [
+        23,
+        24
+      ],
+      "test_rows": [
+        18
+      ]
+    },
+    {
+      "fingerprint": "3bbd9250feb220f70b510f2d31907159ec01ed0485bd03142fe3617b3fded867",
+      "train_rows": [
+        28,
+        29
+      ],
+      "test_rows": [
+        19
+      ]
+    },
+    {
+      "fingerprint": "9afa3fa6fce4650afd24fd7bfbb3a3d9b7089fc4a96b702a985128db7e137937",
+      "train_rows": [
+        30,
+        31
+      ],
+      "test_rows": [
+        20
+      ]
+    },
+    {
+      "fingerprint": "426e71a1896240ae20d6027913b4e726fabc9a58a4ba1d90423d88619350a4f5",
+      "train_rows": [
+        35,
+        36
+      ],
+      "test_rows": [
+        21
+      ]
+    },
+    {
+      "fingerprint": "80969d9b604145a7159a94ce5bd90e1fe2ea68d95dfc4277c3d4d92ee36082e1",
+      "train_rows": [
+        37,
+        38
+      ],
+      "test_rows": [
+        22
+      ]
+    },
+    {
+      "fingerprint": "cb69bdb11a9a10e4334cd12a2cb100ebcabe2c4a6c1907bb65bbc08a11aa7285",
+      "train_rows": [
+        39,
+        40
+      ],
+      "test_rows": [
+        23
+      ]
+    },
+    {
+      "fingerprint": "74d68cc0cc32496a55d11be0a27f4c55d80e654f73cfef329cda1452a48f917c",
+      "train_rows": [
+        44
+      ],
+      "test_rows": [
+        27,
+        28
+      ]
+    },
+    {
+      "fingerprint": "2567f90ace64329ac1ad6bfb143ada3a9cd72b751f7e67098c384f6a81486b5c",
+      "train_rows": [
+        48
+      ],
+      "test_rows": [
+        29,
+        30
+      ]
+    },
+    {
+      "fingerprint": "ed5570602870d60279a16da50f12ad9832b4649ae24ef7c5721e8437144a56a5",
+      "train_rows": [
+        55,
+        56
+      ],
+      "test_rows": [
+        31
+      ]
+    },
+    {
+      "fingerprint": "dca790b2c3527cbba302fcd94221289b000b33235f675407cd34da22ddac87b0",
+      "train_rows": [
+        57,
+        58
+      ],
+      "test_rows": [
+        32
+      ]
+    },
+    {
+      "fingerprint": "99a459c6ab64cf981d173e5074c4cb48ed03d8ace7af2c3d474934d7afb3c82d",
+      "train_rows": [
+        59
+      ],
+      "test_rows": [
+        33,
+        34
+      ]
+    },
+    {
+      "fingerprint": "c906a3eef245de68c20fd522344c96eae05f168ec2104ed63cbfc1362947c87d",
+      "train_rows": [
+        66
+      ],
+      "test_rows": [
+        38,
+        39
+      ]
+    },
+    {
+      "fingerprint": "50714e6a6fabd1cc00dbed50a6bdd0ef1b7f8e9366bf717cc93fcfcffa8a7c22",
+      "train_rows": [
+        73,
+        74
+      ],
+      "test_rows": [
+        40
+      ]
+    },
+    {
+      "fingerprint": "50f16df5df027580008e3c658d23b4779da53a9fe08e5401d11f43e25b17eb06",
+      "train_rows": [
+        75,
+        76
+      ],
+      "test_rows": [
+        41
+      ]
+    },
+    {
+      "fingerprint": "f3d6f4a8e3dd1c2ead6e5389639b1c6cd9981548d190c32c14403b8c9982f0f9",
+      "train_rows": [
+        80
+      ],
+      "test_rows": [
+        42,
+        43
+      ]
+    },
+    {
+      "fingerprint": "479919b20cb5ec4769897f699512ab53df933a7206d6aff4d037d9b34ce415a4",
+      "train_rows": [
+        84,
+        85
+      ],
+      "test_rows": [
+        44
+      ]
+    },
+    {
+      "fingerprint": "fb74bb0f984aac2ff455418d67f4030ecd9aeb027dae998db6749545658734ad",
+      "train_rows": [
+        92
+      ],
+      "test_rows": [
+        45,
+        46
+      ]
+    },
+    {
+      "fingerprint": "55b4cbb592e9a8de13552434b5126b7f21f04100bf8031de9a06d1a35b8eddeb",
+      "train_rows": [
+        93,
+        94
+      ],
+      "test_rows": [
+        47
+      ]
+    },
+    {
+      "fingerprint": "c89660cfce5d00e6725b94e9ef67f98f908bcf8421060848f50abd70371a3b8d",
+      "train_rows": [
+        104,
+        105
+      ],
+      "test_rows": [
+        48
+      ]
+    },
+    {
+      "fingerprint": "0dc23638ad6a86db755231d359f0ba594bc6c8b67438434e216dd3d13b384636",
+      "train_rows": [
+        106
+      ],
+      "test_rows": [
+        49,
+        50
+      ]
+    },
+    {
+      "fingerprint": "0707f29368c726b09379c8926633613b3d3468b2a173b6fe8ac19ec44a0bf040",
+      "train_rows": [
+        107,
+        108
+      ],
+      "test_rows": [
+        51
+      ]
+    },
+    {
+      "fingerprint": "735e246da7c98d3f3c08c4e050500319dc3aaef8334531af11ecef5d7111a499",
+      "train_rows": [
+        121,
+        122
+      ],
+      "test_rows": [
+        52
+      ]
+    },
+    {
+      "fingerprint": "7bf40f7c263e5d01edff181e64df98f848b835b9e055a54be39a5b33908328d4",
+      "train_rows": [
+        126,
+        127
+      ],
+      "test_rows": [
+        56
+      ]
+    },
+    {
+      "fingerprint": "5e496552755aa36c2e7993f9b74201dea94397e52c083927e22d2354db747aba",
+      "train_rows": [
+        131,
+        132
+      ],
+      "test_rows": [
+        57
+      ]
+    },
+    {
+      "fingerprint": "4230226102361b80c3f4e79d46bc106b7aafc135146926b69c84342184f11ed2",
+      "train_rows": [
+        133,
+        134
+      ],
+      "test_rows": [
+        58
+      ]
+    },
+    {
+      "fingerprint": "ffd2c44054acbde4553543f81bda15989ea17519f051771f69f0b88a57401d50",
+      "train_rows": [
+        135,
+        136
+      ],
+      "test_rows": [
+        59
+      ]
+    },
+    {
+      "fingerprint": "1551747a7591ce587ac7e797cfa3fee7201b0e614ce6bdbc9406a2050fa1add0",
+      "train_rows": [
+        140,
+        141
+      ],
+      "test_rows": [
+        60
+      ]
+    },
+    {
+      "fingerprint": "4687e6b49b80119318cc2cdc1e91c4de3bce35b7420d4a625dfb4feb66fc488f",
+      "train_rows": [
+        151
+      ],
+      "test_rows": [
+        61,
+        62
+      ]
+    },
+    {
+      "fingerprint": "a7471856f2d3016f875aa0b16d8b82fea2f90856c1af47237934ee470a9fd6a1",
+      "train_rows": [
+        152,
+        153
+      ],
+      "test_rows": [
+        63
+      ]
+    },
+    {
+      "fingerprint": "db6508a5020eac377fa79405129df6563fc3ea17af101f2fa2b303e70a3ced95",
+      "train_rows": [
+        154,
+        155
+      ],
+      "test_rows": [
+        64
+      ]
+    },
+    {
+      "fingerprint": "6ccc9c516e964f9a37d28ee154c496112f492c753b0aa7bdce291789f9161640",
+      "train_rows": [
+        159,
+        160
+      ],
+      "test_rows": [
+        65
+      ]
+    },
+    {
+      "fingerprint": "662b827ea06704e6c87f8b6eae0621228f35390e8b6ae4ac96cefa20a0b28cb3",
+      "train_rows": [
+        161
+      ],
+      "test_rows": [
+        66,
+        67
+      ]
+    },
+    {
+      "fingerprint": "72eee41d6de24f7f2d90248dc66ea8f909f9d7e8a6d51a997424833714e1ba6c",
+      "train_rows": [
+        165,
+        166
+      ],
+      "test_rows": [
+        68
+      ]
+    },
+    {
+      "fingerprint": "4a2818a2b9e2ddcc241d55921f29c37f208fed83ad13624e50989858e8511204",
+      "train_rows": [
+        167,
+        168
+      ],
+      "test_rows": [
+        69
+      ]
+    },
+    {
+      "fingerprint": "8e771515dd0dcf20d827d6a85ebac27591aaffd951fa36fdd2143c0ca7be0c35",
+      "train_rows": [
+        172,
+        173
+      ],
+      "test_rows": [
+        70
+      ]
+    },
+    {
+      "fingerprint": "e0996ff7c237dd0f610c1ba2a5945ef3baf80c6161ae467e30c509f58fd4422c",
+      "train_rows": [
+        174
+      ],
+      "test_rows": [
+        71,
+        72
+      ]
+    },
+    {
+      "fingerprint": "fa11d5862434c26d2ef31a90dfd7fd2474ebb64f915507b0e2261739e6cb9a06",
+      "train_rows": [
+        175
+      ],
+      "test_rows": [
+        73,
+        74
+      ]
+    },
+    {
+      "fingerprint": "5b0cf52b38937822f65616271e321e37dc5f1b628fc923759ffb5b47f46ade61",
+      "train_rows": [
+        176
+      ],
+      "test_rows": [
+        75,
+        76
+      ]
+    },
+    {
+      "fingerprint": "0439a6e78f94e61374339b8b587259abee50780cd6a154dab37d7c8729b2b7e8",
+      "train_rows": [
+        177,
+        178
+      ],
+      "test_rows": [
+        77
+      ]
+    },
+    {
+      "fingerprint": "28a0eb2d4dc475be0ece092ce9ad4bd8abc0fa128dbfb7b89dcbe08e8fcbb2f8",
+      "train_rows": [
+        182
+      ],
+      "test_rows": [
+        78,
+        79
+      ]
+    },
+    {
+      "fingerprint": "e4625b11c8bb48d83dda4c2eda9a22b2fc0f51d0be50d39a57343081a74ac0d6",
+      "train_rows": [
+        183
+      ],
+      "test_rows": [
+        80,
+        81
+      ]
+    },
+    {
+      "fingerprint": "919c4b11fbafd67cd159059af289a530d61a19a98c068f4ffc8dd995a5707572",
+      "train_rows": [
+        184,
+        185
+      ],
+      "test_rows": [
+        82
+      ]
+    },
+    {
+      "fingerprint": "cc1a595443d6c4dd3723dc916dfad2da55aad4a4f3ecd018caf5729e57418e99",
+      "train_rows": [
+        186,
+        187
+      ],
+      "test_rows": [
+        83
+      ]
+    },
+    {
+      "fingerprint": "110628dc849983fc67652b8403aa6e48636feaa181154c7f1ca6cbb4458d9b78",
+      "train_rows": [
+        188,
+        189
+      ],
+      "test_rows": [
+        87
+      ]
+    },
+    {
+      "fingerprint": "144075d9790e3c2024cd8fee84cab520600074a4619ba58bc23bff062066ea7a",
+      "train_rows": [
+        190,
+        191
+      ],
+      "test_rows": [
+        88
+      ]
+    },
+    {
+      "fingerprint": "7e2ac11abe819866adca5f8264f4c987df55f3ff711fffc89d3d1d398c2e04a1",
+      "train_rows": [
+        192
+      ],
+      "test_rows": [
+        89,
+        90
+      ]
+    },
+    {
+      "fingerprint": "230df4399d064d62214fe2134d1c55429f121937ae3317b912c630a150113e6d",
+      "train_rows": [
+        193,
+        194
+      ],
+      "test_rows": [
+        91
+      ]
+    },
+    {
+      "fingerprint": "06ecf21e25b97cd229b1155a656583d52b16261d8651eec9de4e55cf61ace244",
+      "train_rows": [
+        198
+      ],
+      "test_rows": [
+        92,
+        93
+      ]
+    },
+    {
+      "fingerprint": "8e1d3ef30d8c4f0bc35ecdd459e6097485ff2b0de287af4645678b7e3ec3f468",
+      "train_rows": [
+        199,
+        200
+      ],
+      "test_rows": [
+        97
+      ]
+    },
+    {
+      "fingerprint": "2811c12e889455225b8e8efb5fe1b3ad34f8947add396eb2fb7ace86357277b4",
+      "train_rows": [
+        210,
+        211
+      ],
+      "test_rows": [
+        98
+      ]
+    },
+    {
+      "fingerprint": "c86bed4af375974e1c93a4cdad12205852711000101072169577980d2adea3d9",
+      "train_rows": [
+        215,
+        216
+      ],
+      "test_rows": [
+        99
+      ]
+    },
+    {
+      "fingerprint": "efc8b6854e79659524dd4a3120a594374a2e00ba4d24f83ad25a1989facbe428",
+      "train_rows": [
+        217,
+        218
+      ],
+      "test_rows": [
+        100
+      ]
+    },
+    {
+      "fingerprint": "07c76cd5f7417f203c7811e08b0bd48809fcc7b4775f26722f7e8c1189999e16",
+      "train_rows": [
+        219
+      ],
+      "test_rows": [
+        101,
+        102
+      ]
+    },
+    {
+      "fingerprint": "fe1d929d3ba9aef5f181bb77535b4289ec493c14d1d9c2b689061c8afe2af4c3",
+      "train_rows": [
+        220
+      ],
+      "test_rows": [
+        103,
+        104
+      ]
+    },
+    {
+      "fingerprint": "e84e92acff673f0120cade424d740ac8281f27c656baae79b378746ce1b423d3",
+      "train_rows": [
+        221,
+        222
+      ],
+      "test_rows": [
+        105
+      ]
+    },
+    {
+      "fingerprint": "aa6958b99db3cac6124f129046a3e13160c1b1b7d0015db9d1a17a9031911a24",
+      "train_rows": [
+        229,
+        230
+      ],
+      "test_rows": [
+        106
+      ]
+    },
+    {
+      "fingerprint": "d810a1786817d31c9d63c373d80d4d000518f9d2d1e9872f511e95dd556bd042",
+      "train_rows": [
+        234,
+        235
+      ],
+      "test_rows": [
+        107
+      ]
+    },
+    {
+      "fingerprint": "94077f663fc9e2b66e31714ddd8eadb226c0e7cec202c03f8879e3b4617420e7",
+      "train_rows": [
+        236,
+        237
+      ],
+      "test_rows": [
+        108
+      ]
+    },
+    {
+      "fingerprint": "81d60e8806fe80e17bdb6b10423574939f7e472c3d3bf5a666abab876d28748a",
+      "train_rows": [
+        241,
+        242
+      ],
+      "test_rows": [
+        109
+      ]
+    },
+    {
+      "fingerprint": "ce85f99e0666e34be1ebcaddb64e1ee7a01625c70d4bc8552c0959f25ebb918e",
+      "train_rows": [
+        243,
+        244
+      ],
+      "test_rows": [
+        110
+      ]
+    },
+    {
+      "fingerprint": "0ed10322051cfe86271b6adbdc9d6fc5924c1d6f47da8cf904686448a294daaf",
+      "train_rows": [
+        245
+      ],
+      "test_rows": [
+        111,
+        112
+      ]
+    },
+    {
+      "fingerprint": "9a7c74a63a61f8254c2cbe05645d5189894aa30a6d523fec01ffb48a04d90ee5",
+      "train_rows": [
+        249
+      ],
+      "test_rows": [
+        113,
+        114
+      ]
+    },
+    {
+      "fingerprint": "d2ae293110fcf0387565bb71e401de215a82d85815f34ceef2d3ac5403028426",
+      "train_rows": [
+        250
+      ],
+      "test_rows": [
+        115,
+        116
+      ]
+    },
+    {
+      "fingerprint": "e88eb914e7d2775b4bd59d4072f91c3f40719330a29db199b5c5f4c04cfd407e",
+      "train_rows": [
+        251,
+        252
+      ],
+      "test_rows": [
+        117
+      ]
+    },
+    {
+      "fingerprint": "4594feca0c6f9ecd0581c9f6abf779ddebc769dbc51cacea5e613aa94f033ce5",
+      "train_rows": [
+        253,
+        254
+      ],
+      "test_rows": [
+        118
+      ]
+    },
+    {
+      "fingerprint": "dc15a59387b791822c8a505efbcc68590d29cb1cb18d479e2875ab0bbf376cc4",
+      "train_rows": [
+        255
+      ],
+      "test_rows": [
+        119,
+        120
+      ]
+    },
+    {
+      "fingerprint": "1308f3145347dfe9f637f79d6518ee71aa355922e7369f30e79febe77f79cb34",
+      "train_rows": [
+        256,
+        257
+      ],
+      "test_rows": [
+        121
+      ]
+    },
+    {
+      "fingerprint": "0b9dbd86ff75f549738400e1bf5748135e5ebde644daa357a8583ece48376ea0",
+      "train_rows": [
+        258,
+        259
+      ],
+      "test_rows": [
+        122
+      ]
+    },
+    {
+      "fingerprint": "28d50daf6b4fdd7d17c94d7bb04194d39b8887e56741785d0cf7cee6fa9afd68",
+      "train_rows": [
+        260,
+        261
+      ],
+      "test_rows": [
+        123
+      ]
+    },
+    {
+      "fingerprint": "c0de3e8790be6ee20b91e0a830d2789049baec086b2e423ec4507fb8f1e3f022",
+      "train_rows": [
+        265,
+        266
+      ],
+      "test_rows": [
+        124
+      ]
+    },
+    {
+      "fingerprint": "d22cc056a8f815faaa3c3f7c2ad3fa32c2b969b60d541668c45ebb5b2b173798",
+      "train_rows": [
+        267
+      ],
+      "test_rows": [
+        125,
+        126
+      ]
+    },
+    {
+      "fingerprint": "073e7db08e3f8dc5b14546080fda85a1bf30195135915c6f831f911a593748d3",
+      "train_rows": [
+        268,
+        269
+      ],
+      "test_rows": [
+        127
+      ]
+    },
+    {
+      "fingerprint": "9bb04074ad671e632ba2401e9018103a74943b3ca720afc890af0715c6c72cb9",
+      "train_rows": [
+        273
+      ],
+      "test_rows": [
+        128,
+        129
+      ]
+    },
+    {
+      "fingerprint": "1c8ed1a1d5bf24157a7be16de0981d972affb8a096b3f8219541b6480473ef9c",
+      "train_rows": [
+        274,
+        275
+      ],
+      "test_rows": [
+        130
+      ]
+    },
+    {
+      "fingerprint": "992fe10da6eb456071484ca647eca3a8d955154f8e0d28d6d225a5e32a05e58d",
+      "train_rows": [
+        285,
+        286
+      ],
+      "test_rows": [
+        131
+      ]
+    },
+    {
+      "fingerprint": "3f613ed3673d4ad2d0689dcbe67c1b28dfbe15d4fce1e3c2978f9545fa39aea4",
+      "train_rows": [
+        299,
+        300
+      ],
+      "test_rows": [
+        135
+      ]
+    },
+    {
+      "fingerprint": "001784c57b1b0e8d75ce7223f4c368efe344e76339c1794070726903fbc303d5",
+      "train_rows": [
+        301,
+        302
+      ],
+      "test_rows": [
+        136
+      ]
+    },
+    {
+      "fingerprint": "8a76ba29563b32a3404ce562cc44847efc6120fe935e9d871a9f67586f0e000a",
+      "train_rows": [
+        303,
+        304
+      ],
+      "test_rows": [
+        137
+      ]
+    },
+    {
+      "fingerprint": "80c1986e80914ea011291f8c65afc36e38f1b007a08ad1fbcb106511acaa92f9",
+      "train_rows": [
+        305
+      ],
+      "test_rows": [
+        138,
+        139
+      ]
+    },
+    {
+      "fingerprint": "dddb772770ef9fa348886dfba650c7f5ff214e6a8d0dca5060f98026af1216a5",
+      "train_rows": [
+        306,
+        307
+      ],
+      "test_rows": [
+        140
+      ]
+    },
+    {
+      "fingerprint": "a0f429ae88607d6be653db061fa9df076a908f28591994e6caa892164299623f",
+      "train_rows": [
+        308,
+        309
+      ],
+      "test_rows": [
+        141
+      ]
+    },
+    {
+      "fingerprint": "16481e28062b15a4850b1a75afb0ee5f70f6e58333b6293d0999418d0970eb9e",
+      "train_rows": [
+        310,
+        311
+      ],
+      "test_rows": [
+        142
+      ]
+    },
+    {
+      "fingerprint": "6085e642bde720fe108f975e1bd37be12f253cf80a68ea21e290536cf88b1fa8",
+      "train_rows": [
+        312,
+        313
+      ],
+      "test_rows": [
+        143
+      ]
+    },
+    {
+      "fingerprint": "546ff1f76ed2e1af617c4c03fbabcbcda602092c861058572115b8f8f8c5aedb",
+      "train_rows": [
+        320,
+        321
+      ],
+      "test_rows": [
+        144
+      ]
+    },
+    {
+      "fingerprint": "11fed0ce4af49b00911a2138792d899a378293364f3b36bc9e66df48cbc7c3d8",
+      "train_rows": [
+        322,
+        323
+      ],
+      "test_rows": [
+        145
+      ]
+    },
+    {
+      "fingerprint": "9fbd779afdbdbe0c92db415f525424a244b56cbfe4b20d01195ab355c7cf5911",
+      "train_rows": [
+        327
+      ],
+      "test_rows": [
+        146,
+        147
+      ]
+    },
+    {
+      "fingerprint": "653fdf38f98a811786daa9d6d86d26b5ecc84183217e86964ce1254137c18363",
+      "train_rows": [
+        334
+      ],
+      "test_rows": [
+        151,
+        152
+      ]
+    },
+    {
+      "fingerprint": "fc90384f30944951277b19e6e8b4c907c907d4d97a4dc209b217d3bdcf91a5ce",
+      "train_rows": [
+        335,
+        336
+      ],
+      "test_rows": [
+        153
+      ]
+    },
+    {
+      "fingerprint": "86b3b89af19fbcabf7ff247c191616d28f13ee212464114da9060685ddbfc9ab",
+      "train_rows": [
+        340,
+        341
+      ],
+      "test_rows": [
+        154
+      ]
+    },
+    {
+      "fingerprint": "f4952efecdebe32f9acf790af729b98f1d03f07d61cbbb87e550dc1203a212df",
+      "train_rows": [
+        342
+      ],
+      "test_rows": [
+        155,
+        156
+      ]
+    },
+    {
+      "fingerprint": "714689f089c598034c305010aacb6b65f472b4a73641e2388d17000d67c5932d",
+      "train_rows": [
+        343,
+        344
+      ],
+      "test_rows": [
+        157
+      ]
+    },
+    {
+      "fingerprint": "7b3b41ff9a8a2dde7f9800dc50a2111154bad9055d4334996526d3d96e519733",
+      "train_rows": [
+        363,
+        364
+      ],
+      "test_rows": [
+        158
+      ]
+    },
+    {
+      "fingerprint": "d9a7b92b67204a4c56efbba23e1f293dd0451ec2f0ad2108c57b013d828e065e",
+      "train_rows": [
+        365
+      ],
+      "test_rows": [
+        159,
+        160
+      ]
+    },
+    {
+      "fingerprint": "54d4e6b4ba3bb38ddd3e8ef95022083a5082a4932b08e14fa388cb5320a3c656",
+      "train_rows": [
+        366,
+        367
+      ],
+      "test_rows": [
+        161
+      ]
+    },
+    {
+      "fingerprint": "c1b2153898c5493806580190d7e14e9ec70d2d8825ea4a6beb7f6dcd582c435b",
+      "train_rows": [
+        371,
+        372
+      ],
+      "test_rows": [
+        162
+      ]
+    },
+    {
+      "fingerprint": "96edd4eef38bf07ae512eab569cc380010adcc6e40c25ca4e55466c584a8925f",
+      "train_rows": [
+        373
+      ],
+      "test_rows": [
+        163,
+        164
+      ]
+    },
+    {
+      "fingerprint": "f9a4e0b2315cf91c3da03f9d8a317d1fe30856c2741a985a66a6eacecb658c37",
+      "train_rows": [
+        380,
+        381
+      ],
+      "test_rows": [
+        165
+      ]
+    },
+    {
+      "fingerprint": "fe1b62f3e29e79dbf4d005280567eed90a1af66cf9160dfb8f817dad5e1af142",
+      "train_rows": [
+        388
+      ],
+      "test_rows": [
+        166,
+        167
+      ]
+    },
+    {
+      "fingerprint": "62e44356b739e71e329604e4489eb3669e3a38ea9572b5f9185d88613b9fc6b9",
+      "train_rows": [
+        392,
+        393
+      ],
+      "test_rows": [
+        168
+      ]
+    },
+    {
+      "fingerprint": "a9f99ec6a8cd4a9a0fd9b6ac70c58f96a107891a20d1d104aaf717abf8614c78",
+      "train_rows": [
+        397
+      ],
+      "test_rows": [
+        169,
+        170
+      ]
+    },
+    {
+      "fingerprint": "a23081223652a12eb33d8cd15bca513490ac523de1ed8cb5a34b36ccebc540a0",
+      "train_rows": [
+        398,
+        399
+      ],
+      "test_rows": [
+        171
+      ]
+    },
+    {
+      "fingerprint": "d198f448716ec5de9b3a3a31be0d4c86dd04c55ccdcb14ac77852c0a63e4d2ee",
+      "train_rows": [
+        400,
+        401
+      ],
+      "test_rows": [
+        172
+      ]
+    },
+    {
+      "fingerprint": "41a21a1e16737161ca41cab45ec70606a369080c5827ac5c739d809c961a6bbb",
+      "train_rows": [
+        402,
+        403
+      ],
+      "test_rows": [
+        173
+      ]
+    },
+    {
+      "fingerprint": "4501a5a2024c387ef6e746485e3f0be3d964677b55b51ee564c602bc2a56a215",
+      "train_rows": [
+        410
+      ],
+      "test_rows": [
+        174,
+        175
+      ]
+    },
+    {
+      "fingerprint": "1f49049c99678a3190ab93dfd4654f76d6df04ea680e074f07846b9f4225116a",
+      "train_rows": [
+        417
+      ],
+      "test_rows": [
+        179,
+        180
+      ]
+    }
+  ],
+  "test_row_flags": [
+    {
+      "data_row": 1,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 2,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 3,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": false
+    },
+    {
+      "data_row": 4,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": false
+    },
+    {
+      "data_row": 5,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": false
+    },
+    {
+      "data_row": 6,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 7,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": false
+    },
+    {
+      "data_row": 8,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": false
+    },
+    {
+      "data_row": 9,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": false
+    },
+    {
+      "data_row": 10,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 11,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 12,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 13,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 14,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 15,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 16,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 17,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 18,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 19,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 20,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 21,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 22,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 23,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 24,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": false
+    },
+    {
+      "data_row": 25,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": false
+    },
+    {
+      "data_row": 26,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": false
+    },
+    {
+      "data_row": 27,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 28,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 29,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 30,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 31,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 32,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 33,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 34,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 35,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": false
+    },
+    {
+      "data_row": 36,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": false
+    },
+    {
+      "data_row": 37,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": false
+    },
+    {
+      "data_row": 38,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 39,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 40,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 41,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 42,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 43,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 44,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 45,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 46,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 47,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 48,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 49,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 50,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 51,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 52,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 53,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": false
+    },
+    {
+      "data_row": 54,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": false
+    },
+    {
+      "data_row": 55,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": false
+    },
+    {
+      "data_row": 56,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 57,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 58,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 59,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 60,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 61,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 62,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 63,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 64,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 65,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 66,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 67,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 68,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 69,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 70,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 71,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 72,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 73,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 74,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 75,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 76,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 77,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 78,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 79,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 80,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 81,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 82,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 83,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 84,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": false
+    },
+    {
+      "data_row": 85,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": false
+    },
+    {
+      "data_row": 86,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": false
+    },
+    {
+      "data_row": 87,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 88,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 89,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 90,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 91,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 92,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 93,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 94,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": false
+    },
+    {
+      "data_row": 95,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": false
+    },
+    {
+      "data_row": 96,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": false
+    },
+    {
+      "data_row": 97,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 98,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 99,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 100,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 101,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 102,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 103,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 104,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 105,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 106,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 107,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 108,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 109,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 110,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 111,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 112,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 113,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 114,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 115,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 116,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 117,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 118,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 119,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 120,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 121,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 122,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 123,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 124,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 125,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 126,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 127,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 128,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 129,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 130,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 131,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 132,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": false
+    },
+    {
+      "data_row": 133,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": false
+    },
+    {
+      "data_row": 134,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": false
+    },
+    {
+      "data_row": 135,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 136,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 137,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 138,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 139,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 140,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 141,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 142,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 143,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 144,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 145,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 146,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 147,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 148,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": false
+    },
+    {
+      "data_row": 149,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": false
+    },
+    {
+      "data_row": 150,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": false
+    },
+    {
+      "data_row": 151,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 152,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 153,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 154,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 155,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 156,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 157,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 158,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 159,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 160,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 161,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 162,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 163,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 164,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 165,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 166,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 167,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 168,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 169,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 170,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 171,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 172,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 173,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 174,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 175,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 176,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": false
+    },
+    {
+      "data_row": 177,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": false
+    },
+    {
+      "data_row": 178,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": false
+    },
+    {
+      "data_row": 179,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": true
+    },
+    {
+      "data_row": 180,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": true
+    }
+  ],
+  "warnings": [
+    "selected_feature_overlap: inspect source identity and task context",
+    "shared_groups: review whether evaluation requires unseen entities"
+  ],
+  "limits": [
+    "Potential overlap warning, not proof of leakage or a general split safety certificate.",
+    "No near-duplicate, chronology, target-proxy or unrecorded entity detection.",
+    "Row positions are one-based data records, not physical CSV line numbers.",
+    "Fingerprints are not anonymization; keep private-data reports private."
+  ],
+  "input_files": {
+    "train": {
+      "sha256": "974266a7c9e4f5910ecb8670ea03970d376a09146108700a631153c1a95072a3",
+      "bytes": 12814
+    },
+    "test": {
+      "sha256": "8b711b587a056b12c9d201d630a8f21fdd4a97d7374663b5e48edeab6e3eba79",
+      "bytes": 5535
+    }
+  }
+}

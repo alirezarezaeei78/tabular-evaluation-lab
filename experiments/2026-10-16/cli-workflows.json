@@ -1,0 +1,28 @@
+{
+  "python": "3.12.14",
+  "core_run_without_installed_ml_packages": true,
+  "workflows": [
+    {
+      "case": "random_rows-seed-13",
+      "command": "python split_audit.py --train fixtures/random_rows-seed-13/train.csv --test fixtures/random_rows-seed-13/test.csv --features measurement channel --numeric measurement --group entity --target target --output experiments/2026-10-16/cli/random_rows-seed-13 --fail-on-overlap",
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "json_matches_experiment": true,
+      "csv_counts_match": true,
+      "inputs_unchanged": true,
+      "stdout_counts_match": true
+    },
+    {
+      "case": "group_partition-seed-13",
+      "command": "python split_audit.py --train fixtures/group_partition-seed-13/train.csv --test fixtures/group_partition-seed-13/test.csv --features measurement channel --numeric measurement --group entity --target target --output experiments/2026-10-16/cli/group_partition-seed-13 --fail-on-overlap",
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "json_matches_experiment": true,
+      "csv_counts_match": true,
+      "inputs_unchanged": true,
+      "stdout_counts_match": true
+    }
+  ],
+  "repeated_experiment_matches_initial": true,
+  "checks_passed": 44
+}

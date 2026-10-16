@@ -1,0 +1,11 @@
+case,method,seed,train_rows,test_rows,shared_feature_keys,overlapping_test_rows,shared_groups,test_rows_in_shared_groups,oracle_counts_match,all_input_rows_preserved,unchecked_baseline_feature_rows_flagged,unchecked_baseline_group_rows_flagged,repeated_report_identical
+random_rows-seed-13,random_rows,13,420,180,85,85,123,162,True,True,0,0,True
+feature_partition-seed-13,feature_partition,13,430,170,0,0,76,104,True,True,0,0,True
+group_partition-seed-13,group_partition,13,420,180,0,0,0,0,True,True,0,0,True
+random_rows-seed-29,random_rows,29,420,180,85,85,128,171,True,True,0,0,True
+feature_partition-seed-29,feature_partition,29,419,181,0,0,86,130,True,True,0,0,True
+group_partition-seed-29,group_partition,29,420,180,0,0,0,0,True,True,0,0,True
+random_rows-seed-47,random_rows,47,420,180,74,74,113,150,True,True,0,0,True
+feature_partition-seed-47,feature_partition,47,415,185,0,0,84,131,True,True,0,0,True
+group_partition-seed-47,group_partition,47,420,180,0,0,0,0,True,True,0,0,True
+independent_common_values,independent_common_values,,2,2,1,1,0,0,True,True,0,0,True

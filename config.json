@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-16",
+  "entities": 200,
+  "rows_per_entity": 3,
+  "generator_seed": 20261016,
+  "split_seeds": [
+    13,
+    29,
+    47
+  ],
+  "test_fraction": 0.3,
+  "features": [
+    "measurement",
+    "channel"
+  ],
+  "numeric": [
+    "measurement"
+  ],
+  "group_column": "entity",
+  "target_column": "target",
+  "text_policy": "NFC, case and whitespace preserved",
+  "numeric_policy": "Exact finite Decimal, strip whitespace, signed zero and decimal notation equivalent",
+  "raw_values_in_reports": false,
+  "model_fits": 0
+}

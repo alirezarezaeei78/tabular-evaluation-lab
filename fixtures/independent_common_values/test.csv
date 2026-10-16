@@ -1,0 +1,3 @@
+row_id,entity,measurement,channel,target
+c1,c,1.00,common,1
+d1,d,3,third,0

@@ -1,0 +1,10 @@
+{
+  "split-overlap-counts": {
+    "caption": "Actual selected-feature/group overlap counts on declared synthetic CSV fixtures. Seed 13 shown; complete seeds 13/29/47 and all reports retained. The partition methods have different test rows and sizes, not matched predictive accuracy.",
+    "alt": "Measured table: random row split has 420 train and 180 test rows, 85 of 180 test rows with feature tuples seen in train and 162 of 180 with a shared entity. Feature-key partition has 430 train and 170 test rows, zero feature matches but 104 of 170 shared-entity rows. Entity partition has 420/180 rows and zero of both. A separate distinct-entity common-feature fixture has 2/2 rows, one of two feature matches and zero shared entities. Synthetic functionality test, no predictive-performance claim."
+  },
+  "audit-workflow": {
+    "caption": "Implemented CSV input-validation, exact canonicalization, independent feature/group intersection and JSON/CSV export flow. Schematic, not a timing measurement.",
+    "alt": "Local CSV snapshots and explicit column roles lead to header and row validation, canonical feature tuples with NFC text and exact finite decimals, complete-key equality, separate feature and group matches, then JSON evidence, CSV row flags and CI exit codes. No automatic deletion."
+  }
+}

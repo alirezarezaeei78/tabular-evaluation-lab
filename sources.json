@@ -1,0 +1,52 @@
+{
+  "checked_date": "2026-10-16",
+  "classification": "Established exact-key and group-intersection methods; new authored local tool and executed synthetic functionality tests",
+  "sources": [
+    {
+      "url": "https://scikit-learn.org/1.4/modules/cross_validation.html#cross-validation-iterators-for-grouped-data",
+      "version": "scikit-learn 1.4.2 documentation",
+      "section": "3.1.2.3, grouped data",
+      "used_for": "Unseen-group evaluation requires group separation; grouping is task/domain specific",
+      "caveat": "Supports evaluation rationale only; our counts are local outputs. No sklearn splitter or fitted model is used in the core tool."
+    },
+    {
+      "url": "https://scikit-learn.org/1.4/modules/generated/sklearn.model_selection.GroupShuffleSplit.html",
+      "version": "1.4.2 documentation",
+      "section": "test_size and random_state parameters",
+      "used_for": "Group partition fractions refer to groups, so sample counts may differ",
+      "caveat": "Our fixture generator uses Python random, not this implementation; no claim of identical split membership."
+    },
+    {
+      "url": "https://docs.python.org/3.12/library/hashlib.html",
+      "version": "Python 3.12 documentation, served as 3.12.15; execution 3.12.14",
+      "section": "Usage and SHA-256 constructor",
+      "used_for": "Stable digest labels over canonical bytes and exact file snapshots",
+      "caveat": "Hashes do not anonymize private values; full canonical bytes decide equality, including in forced-collision testing."
+    },
+    {
+      "url": "https://docs.python.org/3.12/library/csv.html",
+      "version": "Python 3.12 documentation",
+      "section": "DictReader, dialect strictness, newline handling and line_num",
+      "used_for": "Strict CSV parsing, explicit UTF-8 decoding and record-position interpretation",
+      "caveat": "One record may span multiple physical file lines; our positions are one-based data records."
+    },
+    {
+      "url": "https://docs.python.org/3.12/library/decimal.html",
+      "version": "Python 3.12 documentation",
+      "section": "Decimal construction, is_finite and as_tuple",
+      "used_for": "Exact finite decimal representation without context-dependent normalization rounding",
+      "caveat": "Equivalence policy is explicitly chosen, not a tolerance-based near-duplicate detector."
+    }
+  ],
+  "data": {
+    "origin": "Fresh authored synthetic CSV fixtures generated from declared config, plus a four-row common-feature counterexample",
+    "licence": "MIT, same as repository",
+    "generator_seed": 20261016,
+    "split_seeds": [13, 29, 47],
+    "private_or_customer_data": false,
+    "external_data_downloads": false,
+    "claims": "Small development-visible functionality/stress tests, not independent scientific or enterprise validation"
+  },
+  "outcomes": "Only the saved local results, complete per-case reports, row flags and executed CLI receipts support measured claims",
+  "runtime_dependencies": "Python 3.12 standard library; Matplotlib/numpy optional for figures under their own licences"
+}

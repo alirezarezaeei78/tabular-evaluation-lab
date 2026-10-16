@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "status": "overlap_detected",
+  "rows": {
+    "train": 2,
+    "test": 2
+  },
+  "features": [
+    "channel",
+    "measurement"
+  ],
+  "numeric_columns": [
+    "measurement"
+  ],
+  "group_column": "entity",
+  "target_column_excluded": "target",
+  "policy": {
+    "text": "Unicode NFC; case and whitespace preserved",
+    "numeric": "Finite exact Decimal; whitespace stripped; notation/signed-zero normalized",
+    "missing": "Empty text cell or whitespace-only numeric cell",
+    "equality": "Complete canonical bytes; SHA-256 for report labels"
+  },
+  "counts": {
+    "shared_feature_keys": 1,
+    "overlapping_test_rows": 1,
+    "shared_groups": 0,
+    "test_rows_in_shared_groups": 0,
+    "all_features_missing": {
+      "train": 0,
+      "test": 0
+    },
+    "digest_collision_buckets": 0
+  },
+  "feature_matches": [
+    {
+      "fingerprint": "128c5c0eb6654656ad7f8c19c4fae71bcb149b36b4f752d266d690a871aea431",
+      "train_rows": [
+        1
+      ],
+      "test_rows": [
+        1
+      ]
+    }
+  ],
+  "group_matches": [],
+  "test_row_flags": [
+    {
+      "data_row": 1,
+      "selected_features_seen_in_train": true,
+      "group_seen_in_train": false
+    },
+    {
+      "data_row": 2,
+      "selected_features_seen_in_train": false,
+      "group_seen_in_train": false
+    }
+  ],
+  "warnings": [
+    "selected_feature_overlap: inspect source identity and task context"
+  ],
+  "limits": [
+    "Potential overlap warning, not proof of leakage or a general split safety certificate.",
+    "No near-duplicate, chronology, target-proxy or unrecorded entity detection.",
+    "Row positions are one-based data records, not physical CSV line numbers.",
+    "Fingerprints are not anonymization; keep private-data reports private."
+  ],
+  "input_files": {
+    "train": {
+      "sha256": "f4ff0ef93220114b5e6d775337ca5e4749cc18cafc90015b8b041422fd853267",
+      "bytes": 72
+    },
+    "test": {
+      "sha256": "04b365a8c3860ee5cfe95d1b2f284f22353847c4d814b2101ebea64083bd6bfa",
+      "bytes": 75
+    }
+  }
+}
