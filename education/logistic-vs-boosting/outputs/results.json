@@ -1,0 +1,123 @@
+{
+  "purpose": "Educational synthetic illustration, not a churn/generalization benchmark",
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.4.2",
+    "matplotlib": "3.10.0",
+    "Pillow": "12.3.0",
+    "imageio-ffmpeg": "0.6.0"
+  },
+  "data": {
+    "generator": "sklearn.make_moons",
+    "samples": 600,
+    "noise": 0.18,
+    "seed": 13,
+    "split_seed": 29,
+    "train": 420,
+    "held_out": 180,
+    "positive_held_out": 90,
+    "selection": "No tuning, one prespecified split"
+  },
+  "logistic": {
+    "C": 1.0,
+    "max_iter": 1000,
+    "coefficients_after_scaling": [
+      [
+        1.0055357015009876,
+        -2.3555874667935317
+      ]
+    ],
+    "intercept": [
+      0.011054103132932185
+    ],
+    "iterations": [
+      8
+    ]
+  },
+  "boosting": {
+    "loss": "log_loss",
+    "trees": 30,
+    "max_depth": 2,
+    "learning_rate": 0.1,
+    "seed": 13,
+    "rendered_stages": [
+      1,
+      5,
+      10,
+      20,
+      30
+    ]
+  },
+  "metrics": {
+    "logistic": {
+      "average_precision": 0.9688982096696459,
+      "brier": 0.0779126651569067,
+      "log_loss": 0.25440296138338486
+    },
+    "boosting": {
+      "average_precision": 0.9968391873540603,
+      "brier": 0.03832771591826884,
+      "log_loss": 0.17622925872346404
+    }
+  },
+  "checks": [
+    {
+      "name": "partition disjoint and complete",
+      "passed": true
+    },
+    {
+      "name": "scaler training-only mean and count",
+      "passed": true
+    },
+    {
+      "name": "finite normalized probabilities",
+      "passed": true
+    },
+    {
+      "name": "binary class mapping",
+      "passed": true
+    },
+    {
+      "name": "sigmoid of linear score matches probability",
+      "passed": true
+    },
+    {
+      "name": "linear logit has zero cross-interaction",
+      "passed": true
+    },
+    {
+      "name": "additive tree leaf scores reconstruct final logits",
+      "passed": true
+    },
+    {
+      "name": "last staged probabilities match final predictions",
+      "passed": true
+    },
+    {
+      "name": "independent AP including tied scores",
+      "passed": true
+    },
+    {
+      "name": "same-seed rerun probabilities match",
+      "passed": true
+    },
+    {
+      "name": "wrong feature count rejected by both models",
+      "passed": true
+    },
+    {
+      "name": "rendered final grid matches actual model",
+      "passed": true
+    }
+  ],
+  "checks_passed": 12,
+  "data_sha256": "2ed9214fbd8fe59a9f0e11bb09c0116652dfff0d9931ef62928ad5327af9ac23",
+  "command": "python compare.py --output outputs",
+  "limits": [
+    "Synthetic nonlinear task chosen for teaching; not representative customer data.",
+    "No hyperparameter search, statistical interval, speed or superiority claim.",
+    "Probability outputs are not certified calibrated confidence."
+  ]
+}

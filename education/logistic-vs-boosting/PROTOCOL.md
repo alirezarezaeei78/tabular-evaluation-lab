@@ -1,0 +1,11 @@
+# Educational illustration protocol — 18 October 2026
+
+Purpose: explain linear log-odds versus additive tree scores using an original comparison infographic and an animation of a fitted model's stages. This is an educational illustration, not a churn benchmark, new algorithm, latency comparison or proof that one model is generally superior.
+
+Before execution: generate 600 two-moons synthetic observations, noise 0.18, generator seed13. Use one stratified 70/30 partition, seed29, with saved record indices. Fit a StandardScaler + LogisticRegression(C=1,max_iter=1000) pipeline on training only. Fit GradientBoostingClassifier(loss=log_loss,n_estimators=30,learning_rate=0.1,max_depth=2,random_state=13) on exactly the same training rows. No parameter search or selection from held-out outcomes. Data coordinates are arbitrary units, not customer attributes.
+
+Retain the same held-out predictions, AP/Brier/log-loss diagnostics, declared class supports and model configurations. The poster need not lead with scores: its teaching claim is how the scoring functions differ. All outcomes are unknown until executed. No real-world recommendation is inferred from this deliberately nonlinear synthetic task.
+
+Checks: disjoint/complete partition; scaler fitted only on training; finite probability range/sums; direct sigmoid-of-logit parity; linear-logit additivity; additive boosting-score reconstruction from actual tree leaves; final staged-probability parity; independent average-precision calculation including ties; duplicate rerun parity; input shape failure; and displayed grid arrays must match saved predictions. Save actual checks, data hashes, dependency versions and commands. No model pickle or downloaded/private data is needed.
+
+Animation: replay saved stages1,5,10,20,30 on a fixed grid and fixed axes. Animated dots represent schematic data flow, not measured timing or independent experiments. Clearly label synthetic data, fitted-stage replay and the lack of churn/general-performance inference. Original diagrams only; no copied artwork, logos, author branding or decorative imagery. Export PNG/SVG, MP4 and first/middle/last frames; inspect text, numerical conditions, playback and native preview.

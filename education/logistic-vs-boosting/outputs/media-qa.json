@@ -1,0 +1,24 @@
+{
+  "all_frames_decoded": true,
+  "duration_seconds": 20,
+  "dimensions": [
+    1080,
+    1350
+  ],
+  "codec": "H264",
+  "pixel_format": "yuv420p",
+  "audio": "none",
+  "stages_checked": [
+    1,
+    5,
+    10,
+    20,
+    30
+  ],
+  "frame_inspection": "Frames0,120,239 inspected; layout corrected to prevent counter/footer overlap; fixed scales and labels retained",
+  "video_sha256": "0c0127f0e10e599fa86fef75bc4c4696c7641ed59da4373d630e1ad76bb5db61",
+  "video_bytes": 243798,
+  "first_middle_last_frames_visually_inspected": true,
+  "native_linkedin_preview": "pending; exported stream fully decoded successfully",
+  "local_direct_browser_navigation": "Direct MP4 navigation blocked by browser client; no access control bypass attempted"
+}

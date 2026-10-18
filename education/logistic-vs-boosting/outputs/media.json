@@ -1,0 +1,21 @@
+{
+  "duration_seconds": 20,
+  "fps": 12,
+  "frames": 240,
+  "width": 1080,
+  "height": 1350,
+  "codec": "H264",
+  "pixel_format": "yuv420p",
+  "audio": "none",
+  "stage_intervals_seconds": 4,
+  "stages": [
+    1,
+    5,
+    10,
+    20,
+    30
+  ],
+  "motion_meaning": "Dots are schematic data flow; probability surfaces are actual saved fitted stages, not measured runtime.",
+  "static_alt": "Side-by-side educational infographic: logistic regression forms one linear feature score and applies a sigmoid; gradient boosting adds tree scores before applying a sigmoid. Fitted probability surfaces on the same synthetic two-moons data show their different shapes. Guidance compares an inspectable baseline with extra nonlinear flexibility, with validation and no universal winner.",
+  "clip_description": "20-second silent educational comparison. The left model stays fixed; the right surface replays actual fitted boosting stages1,5,10,20,30. Moving dots illustrate data flow, not timing. Synthetic data, not churn results."
+}

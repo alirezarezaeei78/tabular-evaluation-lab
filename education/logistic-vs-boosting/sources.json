@@ -1,0 +1,12 @@
+{
+  "checked_on": "2026-10-18",
+  "classification": "Established-method educational tutorial with executed synthetic illustration, not original research or a churn benchmark",
+  "sources": [
+    {"title": "scikit-learn Logistic regression, binary case", "url": "https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression", "read": true, "supports": "Sigmoid of a linear feature score; binary log-loss objective and feature transformation caveat"},
+    {"title": "scikit-learn Gradient boosting, mathematical formulation", "url": "https://scikit-learn.org/stable/modules/ensemble.html#gradient-boosting", "read": true, "supports": "Additive tree scores, loss-gradient fitting and binary logistic inverse link"},
+    {"title": "LogisticRegression API", "url": "https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html", "read": true, "supports": "Regularization, solver and predict_proba conventions"}
+  ],
+  "runtime": "Executed scikit-learn 1.4.2; fetched stable documentation was 1.9.1. Used APIs were checked by actual execution.",
+  "data": {"kind": "New synthetic two-moons generation", "generator": "scikit-learn make_moons", "seed": 13, "license": "Newly generated fixture under repository MIT; dependency licences retained", "private_data": false},
+  "design_references": {"external_artwork_copied": false, "owner_supplied_images": "Viewed only as layout/format examples; not included in repository", "short_link": "https://lnkd.in/p/eW_RQBA6", "short_link_access": "403 Forbidden in connected Chrome; actual linked content not inspected"}
+}
