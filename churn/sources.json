@@ -1,0 +1,31 @@
+{
+  "checked_on": "2026-10-21",
+  "classification": "Established-method local implementation and retrospective experiment, not new research or SOTA",
+  "sources": [
+    {
+      "title": "Iranian Churn",
+      "organization": "UCI Machine Learning Repository",
+      "url": "https://archive.ics.uci.edu/dataset/563/iranian+churn+dataset",
+      "doi": "10.24432/C5JW3Z",
+      "donated": "2020-04-08",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "download_url": "https://archive.ics.uci.edu/static/public/563/iranian%2Bchurn%2Bdataset.zip",
+      "csv_sha256": "90d5fb6bd1630cd4de4b4d28fcf8b4cb92a8f6ab7484605b0799d47386f7dbe1",
+      "verified": "3,150 rows, fourteen CSV columns; eleven retained predictors; provider describes9-month aggregates, month12 target and3-month planning gap. CSV lacks per-customer timestamps.",
+      "caveat": "Provider Charge Amount prose says0-9; actual CSV maximum10. Anonymous ID is mentioned in prose but no ID column appears in this downloaded CSV. Status/Customer Value excluded conservatively; no proven-leakage claim.",
+      "public_redistribution": "Aggregate results/hashes with attribution only in this release; raw CSV and row-level audit remain local. Code downloads the official source when reproduced."
+    },
+    {
+      "title": "Probability calibration",
+      "url": "https://scikit-learn.org/1.4/modules/calibration.html",
+      "version": "1.4.2, matching executed environment",
+      "source_type": "Official technical documentation, not a new paper",
+      "supports": "Sigmoid calibration, independent calibration data, prefit API, reliability bins and Brier-decomposition caveat",
+      "implementation": "CalibratedClassifierCV(method=sigmoid, cv=prefit) on the calibration partition; no refit of the base classifier",
+      "license": "scikit-learn software BSD-3-Clause; linked documentation used as a source, not copied into public assets"
+    }
+  ],
+  "authored_assets": "Code, synthetic demo and original Matplotlib PNG/SVG figures are MIT under the repository licence.",
+  "measured_results": "Only experiments/2026-10-21/results.json contains this run's executed benchmark outcomes. No paper-reported performance is presented as our result."
+}

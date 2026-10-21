@@ -1,0 +1,11 @@
+record_id,Call Failure,Complains,Subscription Length,Charge Amount,Seconds of Use,Frequency of use,Frequency of SMS,Distinct Called Numbers,Age Group,Tariff Plan,Age
+demo-a,2,0,18,2,6200,92,60,28,3,1,34
+demo-b,8,1,30,1,600,9,3,5,2,1,25
+demo-c,0,0,40,5,13000,180,240,50,4,2,48
+demo-d,4,0,12,0,1400,20,2,10,1,1,19
+demo-e,10,1,36,0,200,4,0,3,3,1,32
+demo-f,1,0,24,3,8200,110,125,35,2,2,27
+demo-g,6,0,22,1,900,15,5,8,4,1,46
+demo-h,3,0,28,2,5000,80,90,24,5,2,60
+demo-i,7,1,42,0,450,7,1,4,3,1,35
+demo-j,0,0,16,4,11000,140,200,44,2,2,24

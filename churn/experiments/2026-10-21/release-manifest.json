@@ -1,0 +1,114 @@
+{
+  "base_commit": "7131782c3cf9f2e15b02b7d412bb3db598fabf7c",
+  "scope": "Explicit authored code/demo and aggregate results; raw data, model files and row-level audit excluded",
+  "files": {
+    "README.md": {
+      "sha256": "e840730987e5023eda375de829041733e0f3f23e215617b7ed218df6abca9e36",
+      "bytes": 8047
+    },
+    ".github/workflows/churn.yml": {
+      "sha256": "0894a5ce3fd4a36d6ae35fbf2ea9533e83ffde786abe85fb717acf5de7e9b9a5",
+      "bytes": 407
+    },
+    "churn/.gitignore": {
+      "sha256": "75574a8989374c6ef6e3f1cee222fcb13976e8b15a5718fa251c362dd2f0d73b",
+      "bytes": 44
+    },
+    "churn/ARTICLE.md": {
+      "sha256": "848ff3d510ea382eedfe74010a19ba7d6d24d4a319b69d9abf1f281aa6fc162a",
+      "bytes": 6952
+    },
+    "churn/PROTOCOL.md": {
+      "sha256": "78c53ba9482d9bf5bf645f29604be101d2f649eaaa1ca4e621887b10406b5f38",
+      "bytes": 5449
+    },
+    "churn/README.md": {
+      "sha256": "9a70b523bd5462bae6a023d0f08fd557502a3be4a48ced0158983de5250c9b5f",
+      "bytes": 8861
+    },
+    "churn/app.html": {
+      "sha256": "65582819bb373764ae9bfd9d1c025cc9d91cf9b61e51d07fff76afecddb708e6",
+      "bytes": 10911
+    },
+    "churn/churn_lab.py": {
+      "sha256": "d63f78ae4b7ad9b265f8c7aaa32256a2d2e58311ff12b94b045a3f1ab0d43540",
+      "bytes": 9999
+    },
+    "churn/examples/demo.csv": {
+      "sha256": "e7fad798b9b6c06fd201165b45d612e59e71544734baa4439c66c1aec7cb5f78",
+      "bytes": 529
+    },
+    "churn/render_figures.py": {
+      "sha256": "c96e31ed24bb732769e424e53d6be8d479886853f14728b43ac474597205f5a1",
+      "bytes": 8625
+    },
+    "churn/requirements.txt": {
+      "sha256": "9bb3704e0defd1aff8d392177d29b3bced7e1c261788cf8f3d907e55778c6f04",
+      "bytes": 116
+    },
+    "churn/run_benchmark.py": {
+      "sha256": "d1465a412a664723556ed252e2e07af6adabaa10512da002c3e2832e1e22140d",
+      "bytes": 9491
+    },
+    "churn/server.py": {
+      "sha256": "88acac9d3e0405b9a64607a3b74ae17a712449508308bdacf69c2331ba3151a3",
+      "bytes": 4018
+    },
+    "churn/sources.json": {
+      "sha256": "d43adc893c417f2d682ef13db544d62f67a0e322188c354449ae1c6bd33ce78f",
+      "bytes": 2270
+    },
+    "churn/test_churn.py": {
+      "sha256": "dcac1f9b0c4815f8400b075f0e763804f97bb3c204f4cbf4c4d89d3ac51f1350",
+      "bytes": 9630
+    },
+    "churn/experiments/2026-10-21/calibration.png": {
+      "sha256": "f5f4d063102596e538a73256d149c3cbc1b6daa5c7284d710802e7da96afe796",
+      "bytes": 210971
+    },
+    "churn/experiments/2026-10-21/calibration.svg": {
+      "sha256": "36949c199645ef2ad338747f273a327b5a28895f6a741bbe8a7f5d407ff9d738",
+      "bytes": 23843
+    },
+    "churn/experiments/2026-10-21/checks.json": {
+      "sha256": "032a0ead598dc9e69530716f16521b397e3089a55f3085b3e65070301392061b",
+      "bytes": 2262
+    },
+    "churn/experiments/2026-10-21/configuration.json": {
+      "sha256": "06d6793e1d9702f51ca103ce4a7905c207a4e4a4370709b89f86181e04d434a8",
+      "bytes": 841
+    },
+    "churn/experiments/2026-10-21/figures-data.json": {
+      "sha256": "9cf5bc70f29a648be77a38e2fbda0a2c7427eb4287441f9aa0fcc6c209a36736",
+      "bytes": 37280
+    },
+    "churn/experiments/2026-10-21/policies.png": {
+      "sha256": "c2fd7a959f055ffb73460d8f5c3686e41c452909d72410c8bb1e710135e4a010",
+      "bytes": 204371
+    },
+    "churn/experiments/2026-10-21/policies.svg": {
+      "sha256": "625b86e751606bda3d94eee3cecf3dd9d93d5aac3d18e2ef7155359758795937",
+      "bytes": 26062
+    },
+    "churn/experiments/2026-10-21/results.json": {
+      "sha256": "da3eb7227521f359838f1c401da1f41d62224cd9f5b89cadb2a4bf5e5a171cc7",
+      "bytes": 42852
+    },
+    "churn/experiments/2026-10-21/tests-stdout.txt": {
+      "sha256": "4d788794baa9849d25c1a42895a1c389f23b4b9382eac23181b96dd6b8b675bb",
+      "bytes": 3335
+    },
+    "churn/experiments/2026-10-21/training-stdout.txt": {
+      "sha256": "3c6653537016644a89bb45810e6284b233c55e086ce8215655e7b6ea84c0b940",
+      "bytes": 2752
+    },
+    "churn/experiments/2026-10-21/workflow.png": {
+      "sha256": "e5ede04209048d5fd3ec3d1af17640af25a36c5ede2a7336789ec2319a5a8004",
+      "bytes": 180756
+    },
+    "churn/experiments/2026-10-21/workflow.svg": {
+      "sha256": "310462ded331518e3be9a95d44dc4beb76a6b8a6d877dd4200d4ab95acef3009",
+      "bytes": 7732
+    }
+  }
+}

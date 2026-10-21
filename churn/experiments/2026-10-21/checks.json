@@ -1,0 +1,53 @@
+{
+  "checked_at": "2026-10-21T17:34:30.690559+03:30",
+  "local_tests": {
+    "passed": 27,
+    "failed": 0,
+    "skipped": 0,
+    "log": "tests-stdout.txt",
+    "scope": "Synthetic functionality, policy/numerical oracles and local HTTP workflows; not benchmark accuracy"
+  },
+  "benchmark_checks": {
+    "group_disjoint": true,
+    "all_partitions_exhaustive": true,
+    "train_only_scaler": true,
+    "base_not_refitted_by_calibration": true,
+    "independent_ap_brier_oracles": true,
+    "finite_bounded_scores": true,
+    "joblib_roundtrip_equal": true,
+    "no_test_label_threshold_choice": true
+  },
+  "actual_browser_checks": {
+    "browser": "Connected Chrome",
+    "trained_model_scoring": true,
+    "safe_authored_demo_loaded": true,
+    "local_csv_file_import": true,
+    "switch_to_logistic_and_20_percent_budget": "2 of10 flagged",
+    "invalid_csv_error_and_stale_export_disabling": true,
+    "keyboard_tab_focus_and_enter_scoring": true,
+    "all_input_controls_have_labels": true,
+    "mobile_viewport": [
+      390,
+      844
+    ],
+    "mobile_document_width": 375,
+    "no_horizontal_page_overflow": true,
+    "mobile_results_table": "Own keyboard-focusable horizontal scroll container",
+    "actual_json_csv_downloads_match_api": true,
+    "displayed_scores_match_exports_to_six_decimals": true,
+    "benchmark_table_matches_saved_outputs": true,
+    "temporary_viewport_reset": true,
+    "limitations": "Bounded manual checks; not a full WCAG/security audit; no external hosting verified"
+  },
+  "data_schema_correction": "Provider description says Charge Amount0\u20139; actual CSV reaches10. Final accepted range0\u201310; all3150 source records pass normalized input schema.",
+  "numerical_boundary_correction": "Decimal ceiling fixes7% of100 float boundary; saved10% benchmark counts rechecked unchanged.",
+  "visuals": {
+    "static_png_and_editable_svg": 3,
+    "no_video_created": true,
+    "all_labels_scales_values_inspected": true,
+    "bar_axis_starts_zero": true,
+    "source_results": "results.json",
+    "native_linkedin_media_preview": "pending publication editor verification"
+  },
+  "scope": "Established-method local experiment; all three fixed seeds reported. Calibration Brier worsened in all; no test-based selection."
+}

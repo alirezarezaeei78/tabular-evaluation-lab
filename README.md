@@ -83,3 +83,8 @@ Dictionary indexing avoids comparing every train row with every test row. Canoni
 Exact equality cannot find approximate duplicates, time/arrival leakage, target proxies, unrecorded group identity or inappropriate evaluation policies. Group separation alone does not guarantee chronology or representative deployment conditions. The fixtures are authored and development-visible. There is no fitted-model accuracy claim, public hosted demo, security audit or production deployment claim. Browser access was unavailable during preparation; this release is a verified command-line tool, not a tested browser interface.
 
 All code and freshly authored synthetic fixtures are MIT-licensed. Matplotlib is optional for figures and retains its own licence. No private, customer or employer code/data is included.
+
+
+## Churn Decision Lab — model-backed local app
+
+The new [Churn Decision Lab](churn/README.md) adds an executed UCI churn benchmark, separate sigmoid calibration, explicit review-capacity policies and a local browser runner with checked JSON/CSV exports. All original split-auditor work above remains available. The calibration result is mixed/negative; see all three seeds and limitations in the module README.

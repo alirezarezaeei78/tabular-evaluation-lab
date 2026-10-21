@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="720pt" height="405pt" viewBox="0 0 720 405" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-21T17:35:35.906036</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 405
+L 720 405
+L 720 0
+L 0 0
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 42.48 177.39
+L 231.12 177.39
+Q 239.76 177.39 239.76 172.53
+L 239.76 78.57
+Q 239.76 73.71 231.12 73.71
+L 42.48 73.71
+Q 33.84 73.71 33.84 78.57
+L 33.84 172.53
+Q 33.84 177.39 42.48 177.39
+z
+" clip-path="url(#p86bd6f6cfc)" style="fill: #edf4f8; stroke: #a9bfce; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 265.68 177.39
+L 454.32 177.39
+Q 462.96 177.39 462.96 172.53
+L 462.96 78.57
+Q 462.96 73.71 454.32 73.71
+L 265.68 73.71
+Q 257.04 73.71 257.04 78.57
+L 257.04 172.53
+Q 257.04 177.39 265.68 177.39
+z
+" clip-path="url(#p86bd6f6cfc)" style="fill: #edf4f8; stroke: #a9bfce; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 488.88 177.39
+L 677.52 177.39
+Q 686.16 177.39 686.16 172.53
+L 686.16 78.57
+Q 686.16 73.71 677.52 73.71
+L 488.88 73.71
+Q 480.24 73.71 480.24 78.57
+L 480.24 172.53
+Q 480.24 177.39 488.88 177.39
+z
+" clip-path="url(#p86bd6f6cfc)" style="fill: #edf4f8; stroke: #a9bfce; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 239.603203 125.55
+Q 247.682003 125.55 254.642768 125.55
+" clip-path="url(#p86bd6f6cfc)" style="fill: none; stroke: #286e9c; stroke-linecap: round"/>
+    <path d="M 247.442768 121.95
+L 254.642768 125.55
+L 247.442768 129.15
+z
+" clip-path="url(#p86bd6f6cfc)" style="fill: #286e9c; stroke: #286e9c; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 462.803203 125.55
+Q 470.882003 125.55 477.842768 125.55
+" clip-path="url(#p86bd6f6cfc)" style="fill: none; stroke: #286e9c; stroke-linecap: round"/>
+    <path d="M 470.642768 121.95
+L 477.842768 125.55
+L 470.642768 129.15
+z
+" clip-path="url(#p86bd6f6cfc)" style="fill: #286e9c; stroke: #286e9c; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 42.48 339.39
+L 339.12 339.39
+Q 347.76 339.39 347.76 334.53
+L 347.76 236.52
+Q 347.76 231.66 339.12 231.66
+L 42.48 231.66
+Q 33.84 231.66 33.84 236.52
+L 33.84 334.53
+Q 33.84 339.39 42.48 339.39
+z
+" clip-path="url(#p86bd6f6cfc)" style="fill: #fff1e6; stroke: #a9bfce; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 380.88 339.39
+L 677.52 339.39
+Q 686.16 339.39 686.16 334.53
+L 686.16 236.52
+Q 686.16 231.66 677.52 231.66
+L 380.88 231.66
+Q 372.24 231.66 372.24 236.52
+L 372.24 334.53
+Q 372.24 339.39 380.88 339.39
+z
+" clip-path="url(#p86bd6f6cfc)" style="fill: #edf4f8; stroke: #a9bfce; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 23px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #17324d" x="39.6" y="28.35" transform="rotate(-0 39.6 28.35)">FIT / CALIBRATE / EVALUATE</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #536775" x="39.6" y="50.625" transform="rotate(-0 39.6 50.625)">Exact predictor groups stay together · primary seed 13</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #17324d" x="52.56" y="108.902344" transform="rotate(-0 52.56 108.902344)">FIT · 1,875 rows</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 14px; font-family: 'DejaVu Sans'; fill: #17324d" transform="translate(52.56 128.897812)">Train models + scaler</text>
+    <text style="font-size: 14px; font-family: 'DejaVu Sans'; fill: #17324d" transform="translate(52.56 147.766094)">292 observed churn labels</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #17324d" x="275.76" y="108.902344" transform="rotate(-0 275.76 108.902344)">CAL · 644 rows</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 14px; font-family: 'DejaVu Sans'; fill: #17324d" transform="translate(275.76 128.897812)">Fit sigmoid; fix cutoff</text>
+    <text style="font-size: 14px; font-family: 'DejaVu Sans'; fill: #17324d" transform="translate(275.76 147.766094)">102 observed churn labels</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #17324d" x="498.96" y="108.902344" transform="rotate(-0 498.96 108.902344)">EVAL · 631 rows</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 14px; font-family: 'DejaVu Sans'; fill: #17324d" transform="translate(498.96 128.897812)">Measure on held-out rows</text>
+    <text style="font-size: 14px; font-family: 'DejaVu Sans'; fill: #17324d" transform="translate(498.96 147.766094)">101 observed churn labels</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 19px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #17324d" x="39.6" y="206.55" transform="rotate(-0 39.6 206.55)">Same boosting scores → different review rules</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #17324d" x="52.56" y="266.852344" transform="rotate(-0 52.56 266.852344)">Fixed 0.5 cutoff</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 14px; font-family: 'DejaVu Sans'; fill: #17324d" transform="translate(52.56 286.847812)">Uncalibrated: 99 flagged</text>
+    <text style="font-size: 14px; font-family: 'DejaVu Sans'; fill: #17324d" transform="translate(52.56 305.716094)">After sigmoid: 102 flagged</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #17324d" x="390.96" y="266.852344" transform="rotate(-0 390.96 266.852344)">Exact 10% budget</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 14px; font-family: 'DejaVu Sans'; fill: #17324d" transform="translate(390.96 286.847812)">64 flagged with either score</text>
+    <text style="font-size: 14px; font-family: 'DejaVu Sans'; fill: #17324d" transform="translate(390.96 305.716094)">63 positives · 1 false positive</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #536775" x="39.6" y="367.74" transform="rotate(-0 39.6 367.74)">Budget = ceil(0.10 × 631). Cutoffs do not guarantee capacity.</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #536775" x="39.6" y="386.775" transform="rotate(-0 39.6 386.775)">Source: UCI Iranian Churn (CC BY 4.0) · local retrospective experiment, 21 Oct 2026</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p86bd6f6cfc">
+   <rect x="0" y="0" width="720" height="405"/>
+  </clipPath>
+ </defs>
+</svg>
