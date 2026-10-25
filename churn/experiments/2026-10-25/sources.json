@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-10-25T18:57:31.899298+03:30",
+  "data": {
+    "url": "https://archive.ics.uci.edu/dataset/563/iranian+churn+dataset",
+    "doi": "10.24432/C5JW3Z",
+    "license": "CC BY4.0",
+    "data_sha256": "90d5fb6bd1630cd4de4b4d28fcf8b4cb92a8f6ab7484605b0799d47386f7dbe1",
+    "attribution": "Iranian Churn(2020),UCI Machine Learning Repository"
+  },
+  "method": {
+    "url": "https://scikit-learn.org/1.4/modules/generated/sklearn.linear_model.LogisticRegression.html",
+    "executed_version": "1.4.2",
+    "claims": "Balanced class weights N/(2*N_class); sample weights multiply class weights; C inverse regularization."
+  },
+  "scope": "Established-method local exploratory reuse. No claimed scientific novelty or paper-reported outcome."
+}

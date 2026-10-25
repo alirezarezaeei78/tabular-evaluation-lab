@@ -11,4 +11,4 @@ jobs:
         with:
           python-version: '3.12'
       - run: python -m pip install -r churn/requirements.txt
-      - run: python -m unittest discover -s churn -p test_churn.py -v
+      - run: python -m unittest discover -s churn -p 'test_*.py' -v
