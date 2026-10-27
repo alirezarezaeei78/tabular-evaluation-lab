@@ -1,0 +1,13 @@
+name: Clustering teaching example
+on: [push, pull_request]
+jobs:
+  clustering:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r education/clustering-definitions/requirements.txt
+      - run: python -m unittest -v test_example.py
+        working-directory: education/clustering-definitions

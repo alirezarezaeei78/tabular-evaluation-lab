@@ -88,3 +88,7 @@ All code and freshly authored synthetic fixtures are MIT-licensed. Matplotlib is
 ## Churn Decision Lab — model-backed local app
 
 The new [Churn Decision Lab](churn/README.md) adds an executed UCI churn benchmark, separate sigmoid calibration, explicit review-capacity policies and a local browser runner with checked JSON/CSV exports. All original split-auditor work above remains available. The calibration result is mixed/negative; see all three seeds and limitations in the module README.
+
+## Educational clustering example
+
+[K-means vs DBSCAN: what each calls a cluster](education/clustering-definitions/README.md) adds an executed synthetic teaching example, independent centroid/density checks, saved fit/probe outputs and an original infographic. It makes no real-customer or comparative-accuracy claim.

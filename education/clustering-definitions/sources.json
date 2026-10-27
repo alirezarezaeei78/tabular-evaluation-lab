@@ -1,0 +1,22 @@
+{
+  "checked_at": "2026-10-27T19:46:09.087400+03:30",
+  "method_version": "scikit-learn1.4.2",
+  "sources": [
+    {
+      "url": "https://scikit-learn.org/1.4/modules/clustering.html#k-means",
+      "claim": "K-means minimizes within-cluster squared distance with nearest-centroid assignments; nonconvex shapes and initialization are material caveats."
+    },
+    {
+      "url": "https://scikit-learn.org/1.4/modules/generated/sklearn.cluster.DBSCAN.html",
+      "claim": "eps neighborhoods, min_samples includes the point itself; core expansion, noise labels and no built-in predict. eps is not a maximum cluster diameter."
+    },
+    {
+      "url": "https://scikit-learn.org/1.4/modules/generated/sklearn.preprocessing.StandardScaler.html",
+      "claim": "Fit mean/scale on training data, transform later rows; scaling defines distances and is sensitive to outliers."
+    }
+  ],
+  "inputs": "Authored NumPy-generated synthetic semicircles/noise/probes; no real customer or benchmark records",
+  "license": "Authored code, generated inputs and figures follow repository MIT licence; scikit-learn is BSD-3-Clause, no third-party artwork copied.",
+  "paper_reported_performance_claimed": false,
+  "source_lead_not_used": "The earlier UCI Online Retail RFM project is deferred; no retail dataset was downloaded or evaluated here."
+}
