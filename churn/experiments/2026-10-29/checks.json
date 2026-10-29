@@ -1,0 +1,13 @@
+{
+  "local_tests_passed": 37,
+  "new_feature_checks": 6,
+  "all_21_metric_rows_independently_checked": true,
+  "all_new_feature_equivalences_verified_by_dataframe_join": true,
+  "all_18_model_replays_exact": true,
+  "full_feature_reference_reproduced_all_3_seeds": true,
+  "actual_primary_csv_json_parity": true,
+  "all_declared_fits_and_negative_changes_retained": true,
+  "figure": "Original static PNG/SVG from saved aggregate data; legend overlap corrected",
+  "no_runtime_comparison": true,
+  "csv_line_endings_fixed_after_execution": true
+}

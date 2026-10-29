@@ -1,0 +1,6 @@
+{
+  "at": "2026-10-29T17:03:46.084064+03:30",
+  "before_code_sha256": "0b9ecf1f2364a9c898d48189196460bd73a7b3d8c8d15a77c556c05cfe3e4547",
+  "after_code_sha256": "38a5fc989ba20deca5cd0ce5e8a57746dae501c55a0f8c48da2e34ef14a8bd4c",
+  "change": "CSV export now writes explicit LF rather than CRCRLF on Windows. Saved summary line endings normalized. No fits, feature selection, partitions, probabilities or metric values changed; no experiment rerun. Original prefit code hash preserved."
+}

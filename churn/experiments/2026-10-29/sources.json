@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-10-29T17:00:57.906528+03:30",
+  "data": {
+    "title": "Iranian Churn (2020), UCI",
+    "url": "https://archive.ics.uci.edu/dataset/563/iranian+churn+dataset",
+    "doi": "10.24432/C5JW3Z",
+    "licence": "CC BY 4.0",
+    "provider_facts": "3150 rows; first-nine-month attributes, end-month-12 churn; three-month planning gap; no usable per-row timestamps",
+    "csv_sha256": "90d5fb6bd1630cd4de4b4d28fcf8b4cb92a8f6ab7484605b0799d47386f7dbe1",
+    "public_data_policy": "Code and aggregate metrics only; raw data, model files and row predictions remain local"
+  },
+  "method": {
+    "title": "scikit-learn 1.4.2 HistGradientBoostingClassifier",
+    "url": "https://scikit-learn.org/1.4/modules/generated/sklearn.ensemble.HistGradientBoostingClassifier.html",
+    "claim": "Binary log-loss boosting; fixed iteration and leaf budget, binning learned within fit",
+    "version": "1.4.2"
+  },
+  "metrics": {
+    "url": "https://scikit-learn.org/1.4/modules/model_evaluation.html",
+    "use": "AP, Brier and capacity metrics; independent tie-aware AP/squared-loss/count checks in executed code"
+  },
+  "novelty": "Established method, new local refit experiment; not new paper or independent validation",
+  "authored_code_figures_licence": "MIT; UCI-derived aggregate outputs retain CC BY 4.0 attribution"
+}

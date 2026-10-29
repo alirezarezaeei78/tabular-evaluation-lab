@@ -1,0 +1,42 @@
+test_authored_demo_schema_and_all_models (test_churn.LocalWorkflow.test_authored_demo_schema_and_all_models) ... ok
+test_cross_origin_is_rejected (test_churn.LocalWorkflow.test_cross_origin_is_rejected) ... ok
+test_csv_json_export_full_precision_and_flags (test_churn.LocalWorkflow.test_csv_json_export_full_precision_and_flags) ... ok
+test_duplicate_ids_formula_ids_and_empty_data_rejected (test_churn.LocalWorkflow.test_duplicate_ids_formula_ids_and_empty_data_rejected) ... ok
+test_http_invalid_input_has_explicit_error (test_churn.LocalWorkflow.test_http_invalid_input_has_explicit_error) ... ok
+test_model_receives_only_eleven_features (test_churn.LocalWorkflow.test_model_receives_only_eleven_features) ... ok
+test_nan_inf_and_fractional_features_rejected (test_churn.LocalWorkflow.test_nan_inf_and_fractional_features_rejected) ... ok
+test_observed_charge_amount_ten_is_accepted (test_churn.LocalWorkflow.test_observed_charge_amount_ten_is_accepted) ... ok
+test_real_http_workflow_and_export_parity (test_churn.LocalWorkflow.test_real_http_workflow_and_export_parity) ... ok
+test_source_target_changes_cannot_change_scores (test_churn.LocalWorkflow.test_source_target_changes_cannot_change_scores) ... ok
+test_unknown_target_proxy_and_missing_columns_rejected (test_churn.LocalWorkflow.test_unknown_target_proxy_and_missing_columns_rejected) ... ok
+test_brier_and_counts_have_hand_calculated_answer (test_churn.NumericalAndPolicy.test_brier_and_counts_have_hand_calculated_answer) ... ok
+test_capacity_small_batch_rounds_up (test_churn.NumericalAndPolicy.test_capacity_small_batch_rounds_up) ... ok
+test_capacity_zero_and_full (test_churn.NumericalAndPolicy.test_capacity_zero_and_full) ... ok
+test_confusion_oracle_all_four_cells (test_churn.NumericalAndPolicy.test_confusion_oracle_all_four_cells) ... ok
+test_decimal_capacity_does_not_over_select (test_churn.NumericalAndPolicy.test_decimal_capacity_does_not_over_select) ... ok
+test_development_threshold_ties_not_exact_capacity (test_churn.NumericalAndPolicy.test_development_threshold_ties_not_exact_capacity) ... ok
+test_duplicate_ids_rejected (test_churn.NumericalAndPolicy.test_duplicate_ids_rejected) ... ok
+test_empty_capacity_is_valid_zero (test_churn.NumericalAndPolicy.test_empty_capacity_is_valid_zero) ... ok
+test_group_split_keeps_conflicting_duplicate_labels_together (test_churn.NumericalAndPolicy.test_group_split_keeps_conflicting_duplicate_labels_together) ... ok
+test_probability_and_budget_failure_cases (test_churn.NumericalAndPolicy.test_probability_and_budget_failure_cases) ... ok
+test_reliability_bins_include_probability_one (test_churn.NumericalAndPolicy.test_reliability_bins_include_probability_one) ... ok
+test_same_score_ap_is_prevalence (test_churn.NumericalAndPolicy.test_same_score_ap_is_prevalence) ... ok
+test_selection_does_not_use_outcomes (test_churn.NumericalAndPolicy.test_selection_does_not_use_outcomes) ... ok
+test_tie_aware_ap_against_sklearn (test_churn.NumericalAndPolicy.test_tie_aware_ap_against_sklearn) ... ok
+test_ties_are_id_deterministic (test_churn.NumericalAndPolicy.test_ties_are_id_deterministic) ... ok
+test_undefined_precision_is_explicit (test_churn.NumericalAndPolicy.test_undefined_precision_is_explicit) ... ok
+test_actual_export_rows_match_and_reject_overwrite (test_feature_ablation.FeatureAblationChecks.test_actual_export_rows_match_and_reject_overwrite) ... ok
+test_collisions_count_rows_not_unique_tuples (test_feature_ablation.FeatureAblationChecks.test_collisions_count_rows_not_unique_tuples) ... ok
+test_groups_partition_original_inputs (test_feature_ablation.FeatureAblationChecks.test_groups_partition_original_inputs) ... ok
+test_invalid_fitting_inputs (test_feature_ablation.FeatureAblationChecks.test_invalid_fitting_inputs) ... ok
+test_known_correlation_and_constant (test_feature_ablation.FeatureAblationChecks.test_known_correlation_and_constant) ... ok
+test_removed_input_cannot_change_fitted_predictions (test_feature_ablation.FeatureAblationChecks.test_removed_input_cannot_change_fitted_predictions) ... ok
+test_balanced_no_duplication (test_imbalance.SamplingChecks.test_balanced_no_duplication) ... ok
+test_invalid_labels (test_imbalance.SamplingChecks.test_invalid_labels) ... ok
+test_originals_preserved_and_only_minority_added (test_imbalance.SamplingChecks.test_originals_preserved_and_only_minority_added) ... ok
+test_seed_and_no_input_mutation (test_imbalance.SamplingChecks.test_seed_and_no_input_mutation) ... ok
+
+----------------------------------------------------------------------
+Ran 37 tests in 0.688s
+
+OK

@@ -4,6 +4,16 @@ A **local-only** workbench for ML developers and analysts: train a small churn c
 
 The new contribution is a runnable model-backed scoring workflow integrating a separate sigmoid calibration partition and three explicit decision policies. This is an established-method local experiment, not a new learning algorithm or evidence that a retention offer works.
 
+## Feature-group refit analysis, 29 October 2026
+
+The [executed feature-ablation study](experiments/2026-10-29/README.md) refits the
+same fixed booster after four predeclared group removals. It preserves all three
+known partitions, all measured outcomes and a training-only one-feature reference.
+The report explicitly counts new feature-equivalent rows created by column
+removal. These are exploratory predictive comparisons, not causal importance or
+independent validation. Its documented aggregate inspector exports CSV/JSON
+without training or downloading provider data.
+
 ## Install and run
 
 From the repository root, using Python 3.12 (tested with 3.12.9):
