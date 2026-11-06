@@ -1,0 +1,7 @@
+{
+  "frozen_at": "2026-11-06T17:22:55.032414+03:30",
+  "protocol_sha256": "0fd4e07df59264dc82bb96f10a7a844c1c8d5679a0a53b1a0fabba22efdea90f",
+  "new_stress_outcomes_inspected_before_freeze": false,
+  "new_fits_before_freeze": 0,
+  "benchmark_exposure": "Repeated known21/25/29October evaluation, exploratory only"
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "case": "empty_input",
+    "exit_code": 1,
+    "error_last_line": "ValueError: Unique nonempty CSV headers required",
+    "no_output_created": true
+  },
+  {
+    "case": "protect_existing_export",
+    "exit_code": 1,
+    "error_last_line": "FileExistsError: Preserve existing evidence; choose new output names",
+    "no_output_created": true
+  },
+  {
+    "case": "invalid_policy",
+    "exit_code": 2,
+    "error_last_line": "stress_report.py score: error: argument --policy: invalid choice: 'unknown' (choose from native, median, guarded)",
+    "no_output_created": true
+  },
+  {
+    "case": "authored_demo_native",
+    "records": 3,
+    "accepted": 3,
+    "rejected": 0,
+    "CLI_and_CSV_JSON_exact": true
+  },
+  {
+    "case": "authored_demo_median",
+    "records": 3,
+    "accepted": 3,
+    "rejected": 0,
+    "CLI_and_CSV_JSON_exact": true
+  },
+  {
+    "case": "authored_demo_guarded",
+    "records": 3,
+    "accepted": 1,
+    "rejected": 2,
+    "CLI_and_CSV_JSON_exact": true
+  }
+]

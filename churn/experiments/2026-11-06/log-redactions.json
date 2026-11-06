@@ -1,0 +1,18 @@
+[
+  {
+    "raw": "benchmark-stdout.txt",
+    "raw_sha256": "c1f78fe255a2840fdb0dbfed0053a9f98ffe082e2a3a3cc6c5315bf6516298f3",
+    "public": "benchmark-stdout-public.txt",
+    "public_sha256": "ed70942c39132579894b7b9f1f7e62f1658803362a3f906cda395d717f438607",
+    "installation_path_redactions": 4,
+    "all_warnings_and_numeric_results_preserved": true
+  },
+  {
+    "raw": "tests-stdout.txt",
+    "raw_sha256": "174783f3e2d2c4407ba3130c376383c3e3beee32b6da82571999fcc7c45bddac",
+    "public": "tests-stdout-public.txt",
+    "public_sha256": "7165ea3cc45306c9d3eb8e3426419ad13da2c7993e39501cc7b5eb54d4b6510d",
+    "installation_path_redactions": 5,
+    "all_warnings_and_numeric_results_preserved": true
+  }
+]

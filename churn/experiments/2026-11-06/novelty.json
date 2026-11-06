@@ -1,0 +1,20 @@
+{
+  "id": "2026-11-06-churn-input-stress-report",
+  "date": "2026-11-06",
+  "editorial_pillar": "app_build",
+  "question": "How should the Churn Decision Lab workflow expose missing/out-of-range inputs and model-versus-prior-fallback outputs?",
+  "data": "Known UCI Iranian Churn3150rows, original grouped partitions at seeds13/29/47; private provider rows and separate authored synthetic3record demo",
+  "method": "Original fixed150iteration clean-fit HGB; matched nativeNaN, fitting-median and explicit guarded/prior-fallback policies",
+  "intervention": "New bounded CSV CLI/API, reason-coded per-record flags, model null on rejection, separate prior fallback and matching JSON/CSV; four predeclared simulated input conditions",
+  "outcome": "Primary cleanAP0.924274; allusage-missing nativeAP0.632748/median0.507030; guardedcoverage0/631 with priorfallback separatelylabelled. Threefits,36comparisons, all negative outcomes retained.",
+  "comparison_to_previous": "21October calibration/capacity workflow;25October imbalance;29October feature-removal refits. This feature keeps a clean-trained model fixed while corrupting evaluation inputs, exposes per-record policy decisions and adds a new working exporter. Not the earlier feature-ablation experiment or a tutorial substitute.",
+  "benchmark_exposure": "Known repeated21/25/29October grouped evaluations, exploratory; seeds overlap and simulations do not estimate production drift rates.",
+  "scientific_novelty_claimed": false,
+  "new_contribution_achieved": true,
+  "status": "local_contribution_complete",
+  "local_feature_complete": true,
+  "local_tests_passed": 13,
+  "protocol_sha256": "0fd4e07df59264dc82bb96f10a7a844c1c8d5679a0a53b1a0fabba22efdea90f",
+  "data_sha256": "90d5fb6bd1630cd4de4b4d28fcf8b4cb92a8f6ab7484605b0799d47386f7dbe1",
+  "fingerprint": "5852f00ffa6178d54dd2cb5976f6b0703da0a7e7b7fe6018d6fac04242f2bf99"
+}

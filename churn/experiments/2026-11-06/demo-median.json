@@ -1,0 +1,40 @@
+{
+  "schema": "churn-stress-report-v1",
+  "policy": "median",
+  "model_seed": 13,
+  "n": 3,
+  "accepted": 3,
+  "rejected": 0,
+  "coverage": 1.0,
+  "exact_capacity_count": 1,
+  "interpretation": "Input range checks are not reliability certification. Prior fallback is not an individualized model estimate.",
+  "rows": [
+    {
+      "record_id": "DEMO_COMPLETE",
+      "status": "model_scored",
+      "input_flags": "[]",
+      "model_probability": 0.031150905751198027,
+      "fallback_probability": null,
+      "effective_policy_score": 0.031150905751198027,
+      "exact_10_percent_review": true
+    },
+    {
+      "record_id": "DEMO_MISSING",
+      "status": "model_scored",
+      "input_flags": "[\"missing:Seconds of Use\",\"missing:Frequency of use\",\"missing:Frequency of SMS\",\"missing:Distinct Called Numbers\"]",
+      "model_probability": 0.015454415286607912,
+      "fallback_probability": null,
+      "effective_policy_score": 0.015454415286607912,
+      "exact_10_percent_review": false
+    },
+    {
+      "record_id": "DEMO_RANGE",
+      "status": "model_scored",
+      "input_flags": "[\"outside_fit_range:Age\"]",
+      "model_probability": 0.031150905751198027,
+      "fallback_probability": null,
+      "effective_policy_score": 0.031150905751198027,
+      "exact_10_percent_review": false
+    }
+  ]
+}

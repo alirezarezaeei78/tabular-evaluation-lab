@@ -1,0 +1,42 @@
+{
+  "checked_at": "2026-11-06T17:32:43.761869+03:30",
+  "source_type": "Established methods and an executed local app experiment; no recent-paper/SOTA claim",
+  "sources": [
+    {
+      "title": "Iranian Churn2020",
+      "url": "https://archive.ics.uci.edu/dataset/563/iranian+churn+dataset",
+      "doi": "10.24432/C5JW3Z",
+      "licence": "CC BY4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "download": "https://archive.ics.uci.edu/static/public/563/iranian%2Bchurn%2Bdataset.zip",
+      "csv_sha256": "90d5fb6bd1630cd4de4b4d28fcf8b4cb92a8f6ab7484605b0799d47386f7dbe1",
+      "zip_sha256": "696c3a1812267980751f30d19193a1b430ac4ad76172bb089e664c96813ead66",
+      "data_policy": "Provider rows/predictions/models stay local; public code/hashes/aggregates only. Synthetic demo is authored, not provider data."
+    },
+    {
+      "title": "HGB1.4.2 official docs",
+      "url": "https://scikit-learn.org/1.4/modules/generated/sklearn.ensemble.HistGradientBoostingClassifier.html",
+      "supports": "Native NaN routing and clean-training behavior; native support is not a robustness guarantee"
+    },
+    {
+      "title": "Existing Churn Decision Lab owner source",
+      "url": "https://github.com/alirezarezaeei78/tabular-evaluation-lab/tree/5a7fc1f2f52ff91f0c8074daca047c12902b555b/churn",
+      "upstream_churn_lab_blob_sha": "06ad7ee9a098d5e21feb7d4682407332c1ddac19",
+      "upstream_licence": "MIT, copyright2026AlirezaRezaei",
+      "local_copy_note": "UTF8 source recovered from immutable commit; local trailing newline formatting may differ, functions unchanged.",
+      "original_results_commit": "fc2c91d14b18c4fa18b44d0d65f88eb93c0d3321"
+    }
+  ],
+  "new_code_and_figure": "MIT, copyright2026AlirezaRezaei; existing human and dependency notices retained",
+  "copied_third_party_artwork": false,
+  "provider_records_public": false,
+  "software_not_vendored": {
+    "numpy": "BSD-3-Clause",
+    "pandas": "BSD-3-Clause",
+    "scipy": "BSD-3-Clause",
+    "scikit-learn": "BSD-3-Clause",
+    "joblib": "BSD-3-Clause",
+    "threadpoolctl": "BSD-3-Clause",
+    "matplotlib": "Matplotlib licence"
+  }
+}

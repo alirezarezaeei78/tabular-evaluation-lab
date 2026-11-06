@@ -1,0 +1,4 @@
+record_id,status,input_flags,model_probability,fallback_probability,effective_policy_score,exact_10_percent_review
+DEMO_COMPLETE,model_scored,[],0.031150905751198027,,0.031150905751198027,True
+DEMO_MISSING,model_scored,"[""missing:Seconds of Use"",""missing:Frequency of use"",""missing:Frequency of SMS"",""missing:Distinct Called Numbers""]",0.015454415286607912,,0.015454415286607912,False
+DEMO_RANGE,model_scored,"[""outside_fit_range:Age""]",0.031150905751198027,,0.031150905751198027,False

@@ -1,0 +1,33 @@
+<python-installation>\Lib\site-packages\joblib\externals\loky\backend\context.py:136: UserWarning: Could not find the number of physical cores for the following reason:
+[WinError 2] The system cannot find the file specified
+Returning the number of logical cores instead. You can silence this warning by setting LOKY_MAX_CPU_COUNT to the number of cores you want to use.
+  warnings.warn(
+  File "<python-installation>\Lib\site-packages\joblib\externals\loky\backend\context.py", line 257, in _count_physical_cores
+    cpu_info = subprocess.run(
+               ^^^^^^^^^^^^^^^
+  File "<python-installation>\Lib\subprocess.py", line 550, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python-installation>\Lib\subprocess.py", line 1028, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "<python-installation>\Lib\subprocess.py", line 1540, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+test_all_rejected_is_explicit_not_empty_model_prediction (test_stress_report.StressChecks.test_all_rejected_is_explicit_not_empty_model_prediction) ... ok
+test_export_preserves_null_boolean_flags_and_probabilities (test_stress_report.StressChecks.test_export_preserves_null_boolean_flags_and_probabilities) ... ok
+test_extrema_boundaries_and_shift_rejection (test_stress_report.StressChecks.test_extrema_boundaries_and_shift_rejection) ... ok
+test_invalid_bundle_policy_shapes_and_infinities (test_stress_report.StressChecks.test_invalid_bundle_policy_shapes_and_infinities) ... ok
+test_labels_never_change_inputs_or_scores (test_stress_report.StressChecks.test_labels_never_change_inputs_or_scores) ... ok
+test_metrics_empty_single_class_ties_and_capacity (test_stress_report.StressChecks.test_metrics_empty_single_class_ties_and_capacity) ... ok
+test_missing_is_not_silently_zero_and_prior_is_separate (test_stress_report.StressChecks.test_missing_is_not_silently_zero_and_prior_is_separate) ... ok
+test_native_matches_direct_estimator_and_keeps_input (test_stress_report.StressChecks.test_native_matches_direct_estimator_and_keeps_input) ... ok
+test_output_preserves_existing_input_and_bundle (test_stress_report.StressChecks.test_output_preserves_existing_input_and_bundle) ... ok
+test_parser_blank_unknown_duplicate_missing_and_ragged (test_stress_report.StressChecks.test_parser_blank_unknown_duplicate_missing_and_ragged) ... ok
+test_parser_rejects_nonfinite_nonnumeric_and_invalid_ids (test_stress_report.StressChecks.test_parser_rejects_nonfinite_nonnumeric_and_invalid_ids) ... ok
+test_range_check_is_not_anomaly_certificate (test_stress_report.StressChecks.test_range_check_is_not_anomaly_certificate) ... ok
+test_training_median_fills_only_missing (test_stress_report.StressChecks.test_training_median_fills_only_missing) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.311s
+
+OK

@@ -1,0 +1,85 @@
+{
+  "checked_at": "2026-11-06T17:32:43.761869+03:30",
+  "status": "execution_complete_native_preview_verified",
+  "new_tests_passed": 13,
+  "new_model_fits": 3,
+  "conditions_per_seed": 12,
+  "all_36_conditions_retained": true,
+  "pre_fit_protocol_frozen": true,
+  "actual_input_hash_verified": true,
+  "original_grouped_partition_hashes_match": true,
+  "clean_model_AP_Brier_reproduced_all_seeds": true,
+  "train_only_medians_extrema_and_prior": true,
+  "model_reload_exact": true,
+  "independent_AP_Brier_capacity_oracles": true,
+  "actual_export_verification": {
+    "pairs": 36,
+    "record_exports_checked": 22812,
+    "all_numeric_null_boolean_flags_and_identity_exact": true
+  },
+  "actual_CLI_workflows": [
+    {
+      "case": "empty_input",
+      "exit_code": 1,
+      "error_last_line": "ValueError: Unique nonempty CSV headers required",
+      "no_output_created": true
+    },
+    {
+      "case": "protect_existing_export",
+      "exit_code": 1,
+      "error_last_line": "FileExistsError: Preserve existing evidence; choose new output names",
+      "no_output_created": true
+    },
+    {
+      "case": "invalid_policy",
+      "exit_code": 2,
+      "error_last_line": "stress_report.py score: error: argument --policy: invalid choice: 'unknown' (choose from native, median, guarded)",
+      "no_output_created": true
+    },
+    {
+      "case": "authored_demo_native",
+      "records": 3,
+      "accepted": 3,
+      "rejected": 0,
+      "CLI_and_CSV_JSON_exact": true
+    },
+    {
+      "case": "authored_demo_median",
+      "records": 3,
+      "accepted": 3,
+      "rejected": 0,
+      "CLI_and_CSV_JSON_exact": true
+    },
+    {
+      "case": "authored_demo_guarded",
+      "records": 3,
+      "accepted": 1,
+      "rejected": 2,
+      "CLI_and_CSV_JSON_exact": true
+    }
+  ],
+  "all_declared_negative_outcomes_retained": true,
+  "warning": "Windows joblib/loky physical-core query failed; logical-core fallback warning retained; compute block limited to1thread.",
+  "protocol_implementation_note": "Nonfinite literal CSV cells are rejected as schema errors; blank missing cells get per-record policy flags. No alternate fitting/metric protocol or after-outcome policy was chosen.",
+  "visual": {
+    "file": "missing-input-stress.png",
+    "size": [
+      1080,
+      1350
+    ],
+    "editable_source": "source/render_stress.py",
+    "editable_svg": "missing-input-stress.svg",
+    "measured_table_checked_against_primary_results": true,
+    "local_labels_and_legibility_inspected": true,
+    "native_upload_preview_verified": true,
+    "native_alt_verified": true,
+    "video_created_or_uploaded": false,
+    "native_crop": "Full image visible, no crop applied",
+    "proof": "native-media-preview.png"
+  },
+  "native_owner_activity_queue_verified": true,
+  "no_demo_host_claim": true,
+  "no_independent_validation_or_causal_claim": true,
+  "publisher_rechecked_at": "2026-11-06T18:29:53.261769+03:30",
+  "publication_verification": "Separate publication and GitHub release receipts track public delivery; this file records executed engineering checks."
+}
