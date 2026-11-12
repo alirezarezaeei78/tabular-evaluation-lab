@@ -11,3 +11,12 @@ jobs:
         with:
           python-version: '3.12'
       - run: python run_experiment.py --output local-output/ci
+  retail-extreme-fixtures:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements-retail-extremes.txt
+      - run: python -m unittest -v test_retail_extremes

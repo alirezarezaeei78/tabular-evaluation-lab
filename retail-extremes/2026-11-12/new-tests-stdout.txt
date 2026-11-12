@@ -1,0 +1,14 @@
+test_cleaning_dates_duplicates_and_rfm_oracle (test_retail_extremes.ExtremeChecks.test_cleaning_dates_duplicates_and_rfm_oracle) ... ok
+test_four_pipelines_and_reloaded_parameters (test_retail_extremes.ExtremeChecks.test_four_pipelines_and_reloaded_parameters) ... ok
+test_independent_quantile_interpolation (test_retail_extremes.ExtremeChecks.test_independent_quantile_interpolation) ... ok
+test_invalid_feature_arrays (test_retail_extremes.ExtremeChecks.test_invalid_feature_arrays) ... ok
+test_label_permutations_and_exact_ari (test_retail_extremes.ExtremeChecks.test_label_permutations_and_exact_ari) ... ok
+test_scaler_fits_training_rows_only (test_retail_extremes.ExtremeChecks.test_scaler_fits_training_rows_only) ... ok
+test_small_profiles_suppressed (test_retail_extremes.ExtremeChecks.test_small_profiles_suppressed) ... ok
+test_ties_and_mutation_locality (test_retail_extremes.ExtremeChecks.test_ties_and_mutation_locality) ... ok
+test_zero_full_fraction_and_bad_stress (test_retail_extremes.ExtremeChecks.test_zero_full_fraction_and_bad_stress) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.992s
+
+OK

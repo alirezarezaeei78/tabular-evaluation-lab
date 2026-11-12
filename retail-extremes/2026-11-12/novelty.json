@@ -1,0 +1,12 @@
+{
+  "question": "How do representation and extreme-spend perturbations change fixed and refitted RFM segmentations?",
+  "data": "Same known UCI Online Retail development2960 and matched comparison1664customers,591new-to-development; CC BY4.0",
+  "method": "Four raw/log1p by StandardScaler/RobustScaler pipelines; fixed k2 and KMeans seed13/n_init10",
+  "intervention": "17comparison monetary x10 under frozen models;30development monetary x10 then refit; identical3x80%development samples with full pipeline refits",
+  "outcome": "20fits completed; frozen assignments unchanged; raw/robust refit comparison support1664/0 andARI0 despite samplingARI0.970529..1.0. All methods retained.",
+  "different_from_prior": "5November studied lookback30/90/180 and sampling under one frozen log-standard geometry. This fixes the comparison snapshot and executes new transformation and extreme-spend/refit alternatives. Prior study remains unpublished and preserved.",
+  "benchmark_exposure": "Known previously exposed historical cohort, overlapping development/comparison windows. Exploratory sensitivity, no independent validation.",
+  "scientific_novelty_claim": false,
+  "app_claim": false,
+  "results_predetermined": false
+}

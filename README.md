@@ -1,5 +1,10 @@
 # Split Overlap Auditor
 
+**12 November research addition:** [Retail preprocessing and extreme-spend sensitivity](retail-extremes/2026-11-12/README.md)
+compares four fixed RFM preprocessing pipelines, frozen-input stress, development
+stress/refits and matched customer subsamples. This is exploratory historical
+clustering analysis, with no customer-type ground truth or app-release claim.
+
 A local tool for analysts and ML developers who need to inspect repeated feature rows or shared entities across train/test CSV files. It produces a JSON evidence report, per-test-row CSV flags and exit codes that can gate a CI job.
 
 **Local CLI/API release. Python 3.12 standard library; no account, API key, upload service or model download.** Inputs are never edited. Warnings require human interpretation: two independent entities can have identical selected features, and some prediction tasks intentionally evaluate new observations from known entities.

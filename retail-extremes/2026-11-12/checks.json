@@ -1,0 +1,19 @@
+{
+  "checked_at": "2026-11-12T13:39:00.802024+00:00",
+  "new_tests_passed": 9,
+  "root_regression_tests_passed": 53,
+  "real_model_fits_completed": 20,
+  "real_private_predictions": 39936,
+  "independent_saved_model_predictions_checked": 33280,
+  "independent_exact_ari_checked_for_all_comparisons": true,
+  "matching_customer_ids_and_sample_hashes_checked": true,
+  "independent_scaler_statistics_rfm_and_inertia_checks": true,
+  "all_primary_fits_valid_and_converged": true,
+  "model_warnings": 0,
+  "failed_primary_fits": 0,
+  "implementation_notes": [
+    "Initial synthetic tests passed with optional Windows physical-core probing traceback. Set process-local LOKY_MAX_CPU_COUNT=1 for the declared single-CPU budget; reran9checks successfully. Initial raw log retained privately.",
+    "Measured figure headers revised for legibility; all numerical values remain driven by completed results.json."
+  ],
+  "benchmark_exposure": "Known5November historical cohort; exploratory, no independent validation or customer-type ground truth"
+}

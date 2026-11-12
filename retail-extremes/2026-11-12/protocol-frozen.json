@@ -1,0 +1,13 @@
+{
+  "frozen_at": "2026-11-12T17:01:53.804568+03:30",
+  "sha256": "f61fa54adefc8b0dda7ff2de63b38af9a030585a27ca00527451df750e9876dd",
+  "declared_model_fits": 20,
+  "declared_sampling_seeds": [
+    13,
+    29,
+    47
+  ],
+  "kmeans_seed": 13,
+  "results_known_before_execution": false,
+  "benchmark_previously_exposed": true
+}
