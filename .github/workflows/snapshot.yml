@@ -1,0 +1,15 @@
+name: Frozen snapshot command
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements-retail-extremes.txt
+      - run: python -m unittest -v test_segment_snapshot.py
+      - run: python segment_snapshot.py --left snapshot-comparison/2026-11-18/demo/left.csv --right snapshot-comparison/2026-11-18/demo/right.csv --model snapshot-comparison/2026-11-18/demo/model.json --output local-output/snapshot-demo

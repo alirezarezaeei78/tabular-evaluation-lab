@@ -1,0 +1,9 @@
+method,left_label,right_label,count
+kmeans,0,0,4
+kmeans,0,1,0
+kmeans,1,0,2
+kmeans,1,1,6
+median_rule,0,0,4
+median_rule,0,1,0
+median_rule,1,0,2
+median_rule,1,1,6

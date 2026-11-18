@@ -1,0 +1,26 @@
+{
+  "checked_at": "2026-11-18T18:26:33.853042+03:30",
+  "sources": [
+    {
+      "url": "https://archive.ics.uci.edu/dataset/352/online+retail",
+      "author": "Daqing Chen",
+      "version_date": "2015-11-05 donation",
+      "doi": "10.24432/C5BW33",
+      "licence": "CC BY 4.0",
+      "use": "Local provider RFM; only aggregate outputs public; no transactions/IDs/fitted parameters"
+    },
+    {
+      "url": "https://scikit-learn.org/1.4/modules/generated/sklearn.cluster.KMeans.html",
+      "version": "1.4.2",
+      "use": "Frozen nearest-center assignment, deterministic authored demo fit"
+    },
+    {
+      "url": "https://scikit-learn.org/1.4/modules/generated/sklearn.metrics.adjusted_rand_score.html",
+      "version": "1.4.2",
+      "use": "Permutation-invariant partition agreement; independently checked by exact rational contingency"
+    }
+  ],
+  "new_code_and_synthetic_fixtures": "MIT",
+  "visual": "Original Matplotlib diagram/table from actual results, not copied artwork",
+  "recent_research_claim": false
+}

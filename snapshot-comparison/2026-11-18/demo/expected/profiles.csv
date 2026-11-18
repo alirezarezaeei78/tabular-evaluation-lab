@@ -1,0 +1,17 @@
+method,side,scope,label,count,median_R,median_F,median_M,medians_suppressed
+kmeans,left,all,0,4,,,,True
+kmeans,left,all,1,12,2.5,10.5,210.0,False
+kmeans,left,matched,0,4,,,,True
+kmeans,left,matched,1,8,,,,True
+kmeans,right,all,0,10,43.0,2.0,26.5,False
+kmeans,right,all,1,6,,,,True
+kmeans,right,matched,0,6,,,,True
+kmeans,right,matched,1,6,,,,True
+median_rule,left,all,0,4,,,,True
+median_rule,left,all,1,12,2.5,10.5,210.0,False
+median_rule,left,matched,0,4,,,,True
+median_rule,left,matched,1,8,,,,True
+median_rule,right,all,0,10,43.0,2.0,26.5,False
+median_rule,right,all,1,6,,,,True
+median_rule,right,matched,0,6,,,,True
+median_rule,right,matched,1,6,,,,True

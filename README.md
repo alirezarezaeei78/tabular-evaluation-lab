@@ -1,5 +1,7 @@
 # Split Overlap Auditor
 
+**18 November app addition:** [Frozen RFM snapshot comparison](snapshot-comparison/2026-11-18/README.md) adds a local model-backed command with matched/unmatched accounting, fixed-label transitions, profiles and consistent JSON/CSV exports. Runs locally with a safe authored synthetic demo.
+
 **12 November research addition:** [Retail preprocessing and extreme-spend sensitivity](retail-extremes/2026-11-12/README.md)
 compares four fixed RFM preprocessing pipelines, frozen-input stress, development
 stress/refits and matched customer subsamples. This is exploratory historical

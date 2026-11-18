@@ -1,0 +1,15 @@
+{
+  "tests_passed": 62,
+  "new_tests_passed": 9,
+  "new_skips": 0,
+  "api_cli_all_four_export_files_identical": true,
+  "provider_input_bytes_unchanged": {
+    "180-day.csv": "2fe1607d8f167afc611857c00fb3102aa27b94138f2e635ada22a81fe82f788e",
+    "30-day.csv": "d6a84bad5589e12d1286263a2debee638beff152cfa2441433e07ed71054a2cb",
+    "model.json": "03104dd7dab21ced7eca58aa35244eac708051314947b39f0550bbf6cfdd81d3"
+  },
+  "prior_reference_predictions_match": 1664,
+  "independent_ari_scalar_rfm_recovered_model_and_rule_checks": true,
+  "format": "Original static PNG1080x1380 with SVG source",
+  "video": false
+}

@@ -1,0 +1,14 @@
+test_cli_success_and_error_exit (test_segment_snapshot.SnapshotChecks.test_cli_success_and_error_exit) ... ok
+test_empty_disjoint_and_single (test_segment_snapshot.SnapshotChecks.test_empty_disjoint_and_single) ... ok
+test_exports_match_report (test_segment_snapshot.SnapshotChecks.test_exports_match_report) ... ok
+test_hand_calculated_join_and_metrics (test_segment_snapshot.SnapshotChecks.test_hand_calculated_join_and_metrics) ... ok
+test_invalid_model (test_segment_snapshot.SnapshotChecks.test_invalid_model) ... ok
+test_invalid_rows (test_segment_snapshot.SnapshotChecks.test_invalid_rows) ... ok
+test_non_object_model_and_bad_header (test_segment_snapshot.SnapshotChecks.test_non_object_model_and_bad_header) ... ok
+test_profile_support_and_medians (test_segment_snapshot.SnapshotChecks.test_profile_support_and_medians) ... ok
+test_reordering_and_no_input_mutation (test_segment_snapshot.SnapshotChecks.test_reordering_and_no_input_mutation) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 1.557s
+
+OK
